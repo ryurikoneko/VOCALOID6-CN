@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "module": "VOCALOID6",
+      "jaCount": 731,
+      "neutralCount": 731,
+      "chineseCount": 733,
+      "jaOnly": [
+        "PreferencesDlg_Advanced_GetCacheSize_Caption",
+        "StyleSaveAsDlg_SystemStyleCannot"
+      ],
+      "neutralOnly": [
+        "PreferencesDlg_General_GetCacheSize_Caption",
+        "StyleSaveAsDlg_SystemStyleCannotOverwrite"
+      ],
+      "jaFileSha256": "8653e3b34ac6070a42d1965fb6e8f7c5c683bbddaf4a0cf3c6932767c1517bc8",
+      "oldCsvMatch": true
+    },
+    {
+      "module": "VOCALOID6Plugin",
+      "jaCount": 731,
+      "neutralCount": 731,
+      "chineseCount": 733,
+      "jaOnly": [
+        "PreferencesDlg_Advanced_GetCacheSize_Caption",
+        "StyleSaveAsDlg_SystemStyleCannot"
+      ],
+      "neutralOnly": [
+        "PreferencesDlg_General_GetCacheSize_Caption",
+        "StyleSaveAsDlg_SystemStyleCannotOverwrite"
+      ],
+      "jaFileSha256": "86ef1275053fcf99465d17b39e2e8be6d0b1b88e3229b437e22858b202636e87",
+      "oldCsvMatch": true
+    }
+  ]
+}

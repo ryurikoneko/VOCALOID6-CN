@@ -1,0 +1,10 @@
+{
+  "payload/V6CN.StartupHook.dll": "048ba258769b0664d6d301ea2f5113e4dd30f1fcdd689504ced9f94bb6102e84",
+  "payload/ja-JP/VOCALOID6.resources.dll": "6d02b595ffa07bb696b0350eb6371aec2aa4e16c8663d9710600bf6bb44ea274",
+  "payload/ja-JP/VOCALOID6Plugin.resources.dll": "8be7cb2b6fd55fac3e4c9dffbe480e85471ff2369ea7b4db4819546aa456576b",
+  "payload/toolkit/V6CN.Toolkit.deps.json": "502a660e18619863255ec58a8f2e2b819ffeb324a358089f3e6f6cec299bbcdd",
+  "payload/toolkit/V6CN.Toolkit.dll": "638cd213e0d2d5a4ad8d946d74a58c93a404c6a68b5614bc3ef9a6847ea8e822",
+  "payload/toolkit/V6CN.Toolkit.runtimeconfig.json": "97c9700542b659150b230c3578b29530fd76ab01ec66a92cd16945e0245713df",
+  "payload/zh-CN/VOCALOID6.resources.dll": "9a3e2e386a9520db969e2d5cea5cd3bca4300a26e138423017c94ad0ea0fab07",
+  "payload/zh-CN/VOCALOID6Plugin.resources.dll": "f96a943f23bb3e86ee491a629b0811acf1503d3e1c0db0fb255cf3c4fbc86b69"
+}

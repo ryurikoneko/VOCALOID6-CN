@@ -1,0 +1,65 @@
+{
+  "platform": "posix",
+  "results": [
+    {
+      "name": "payload_integrity",
+      "status": "PASS",
+      "exitCode": 0
+    },
+    {
+      "name": "isolated_install",
+      "status": "PASS",
+      "exitCode": 0
+    },
+    {
+      "name": "all_copied_bytes_and_original_tree",
+      "status": "PASS",
+      "fileCount": 53
+    },
+    {
+      "name": "existing_destination_refused",
+      "status": "PASS",
+      "exitCode": 1
+    },
+    {
+      "name": "nested_destination_refused",
+      "status": "PASS",
+      "exitCode": 1
+    },
+    {
+      "name": "wrong_source_refused",
+      "status": "PASS",
+      "exitCode": 1
+    },
+    {
+      "name": "modified_patch_restore_refused",
+      "status": "PASS",
+      "exitCode": 1
+    },
+    {
+      "name": "restore_removes_patch_only",
+      "status": "PASS",
+      "exitCode": 0
+    },
+    {
+      "name": "restored_copy_and_original_tree_unchanged",
+      "status": "PASS",
+      "fileCount": 53
+    },
+    {
+      "name": "repeat_restore_refused",
+      "status": "PASS",
+      "exitCode": 1
+    },
+    {
+      "name": "linked_destination_parent_refused",
+      "status": "PASS",
+      "exitCode": 1
+    },
+    {
+      "name": "linked_source_refused",
+      "status": "PASS",
+      "exitCode": 1
+    }
+  ]
+}

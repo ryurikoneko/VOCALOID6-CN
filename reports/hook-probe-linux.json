@@ -1,0 +1,21 @@
+{
+  "platform": "Ubuntu 24.04.3 LTS",
+  "results": [
+    {
+      "module": "VOCALOID6",
+      "version": "6.13.3.1",
+      "culture": "zh-CN",
+      "resourceCount": 733,
+      "accessors": 731,
+      "ui": "NOT_TESTED"
+    },
+    {
+      "module": "VOCALOID6Plugin",
+      "version": "6.13.3.1",
+      "culture": "zh-CN",
+      "resourceCount": 733,
+      "accessors": 731,
+      "ui": "NOT_TESTED"
+    }
+  ]
+}

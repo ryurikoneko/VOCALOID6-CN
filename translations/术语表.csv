@@ -1,0 +1,61 @@
+﻿English,简体中文,语境说明,参考
+Piano Roll,钢琴窗,,见 reports/术语校准.md
+Track,轨道,,见 reports/术语校准.md
+Part,片段,,见 reports/术语校准.md
+Note,音符,,见 reports/术语校准.md
+Lyric,歌词,,见 reports/术语校准.md
+Phoneme,音素,界面涉及歌词及引擎发音编码。,见 reports/术语校准.md
+Phonetic Symbol,音素符号,对应编辑器实际音素编码；与音素统一，避免暗示采用国际音标。,见 reports/术语校准.md
+Pitch,音高,,见 reports/术语校准.md
+Pitch Curve,音高曲线,,见 reports/术语校准.md
+Velocity,辅音时长（VEL）,VOCALOID 合成语境；保留 VEL。MIDI 输入力度另译为力度。,见 reports/术语校准.md
+Dynamics,动态（DYN）,影响歌声强弱；保留参数缩写。,见 reports/术语校准.md
+Expression,表情,声库厂商中文页面采用表情工具；不译为表达式。,见 reports/术语校准.md
+Breathiness,气声,,见 reports/术语校准.md
+Brightness,明亮度,,见 reports/术语校准.md
+Clearness,清晰度,,见 reports/术语校准.md
+Gender Factor,性别因子（GEN）,不与后续版本 Character 参数合并。,见 reports/术语校准.md
+Vibrato,颤音,,见 reports/术语校准.md
+Vibrato Depth,颤音深度,,见 reports/术语校准.md
+Vibrato Rate,颤音速率,,见 reports/术语校准.md
+Attack,起音,,见 reports/术语校准.md
+Release,释音,,见 reports/术语校准.md
+Timing,时序,,见 reports/术语校准.md
+Quantize,量化,,见 reports/术语校准.md
+Tempo,速度,,见 reports/术语校准.md
+Time Signature,拍号,,见 reports/术语校准.md
+Panpot,声像,,见 reports/术语校准.md
+Volume,音量,,见 reports/术语校准.md
+Master Track,主轨道,与731条界面词库统一。,见 reports/术语校准.md
+Audio Effect,音频效果,,见 reports/术语校准.md
+Effect List,效果器列表,,见 reports/术语校准.md
+Mixdown,音频混缩导出,区别实时混音操作与文件导出。,见 reports/术语校准.md
+Render,渲染,,见 reports/术语校准.md
+Freeze Track,冻结轨道,,见 reports/术语校准.md
+Voicebank,声库,采用中文社区惯用名称。,见 reports/术语校准.md
+Voice Color,音色,保留风格预设与音色的层级区别。,见 reports/术语校准.md
+AI Voice,AI 歌声,,见 reports/术语校准.md
+Import,导入,,见 reports/术语校准.md
+Export,导出,,见 reports/术语校准.md
+Duplicate,创建副本,与剪贴板复制区分。,见 reports/术语校准.md
+Join Notes,合并音符,,见 reports/术语校准.md
+Split Note,拆分音符,,见 reports/术语校准.md
+Insert Rest,插入休止符,,见 reports/术语校准.md
+Extract Lyrics,提取歌词,,见 reports/术语校准.md
+Phoneme Timing,音素时序,,见 reports/术语校准.md
+Parameter Control,参数控制,,见 reports/术语校准.md
+Automation,自动化,,见 reports/术语校准.md
+Take,演唱变体（Take）,用于同旋律不同演唱表现；与录制遍次区分。,见 reports/术语校准.md
+Leading Drift,前部音高漂移,作用于音符起始部分。,见 reports/术语校准.md
+Following Drift,后部音高漂移,作用于音符结束部分。,见 reports/术语校准.md
+Overall Drift,整体音高漂移,与音高微调、音高过渡区分。,见 reports/术语校准.md
+Leading Transition,前部音高过渡,Transition 不译成 Expression。,见 reports/术语校准.md
+Following Transition,后部音高过渡,与相邻音符衔接。,见 reports/术语校准.md
+Fine Pitch,音高微调,微调单个音符音高。,见 reports/术语校准.md
+Breath,换气声,功能开关；与连续参数 Breathiness 区分。,见 reports/术语校准.md
+Pitch Bend,弯音（PIT/PB）,连续音高偏移参数；不把所有音高编辑统称滑音。,见 reports/术语校准.md
+Pitch Bend Sensitivity,弯音灵敏度（PBS）,控制弯音幅度对应范围。,见 reports/术语校准.md
+Portamento Timing,滑音时机（POR）,影响过渡发生时间；不解释成过渡持续时长。,见 reports/术语校准.md
+Growl,咆哮（GWL/GRW）,保留版本参数缩写。,见 reports/术语校准.md
+Mouth,开口度（MOU）,与旧版 OPE 的名称对应另见原版手册。,见 reports/术语校准.md
+Character,声线特征（CHA）,不假定与旧版 GEN 的数值方向一致。,见 reports/术语校准.md

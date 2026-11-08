@@ -1,0 +1,38 @@
+[
+  {
+    "path": "payload/ja-JP/VOCALOID6.resources.dll",
+    "name": "VOCALOID6.resources",
+    "version": "6.13.3.1",
+    "culture": "ja-JP",
+    "resourceCount": 733,
+    "methodCount": 0,
+    "sha256": "6d02b595ffa07bb696b0350eb6371aec2aa4e16c8663d9710600bf6bb44ea274"
+  },
+  {
+    "path": "payload/ja-JP/VOCALOID6Plugin.resources.dll",
+    "name": "VOCALOID6Plugin.resources",
+    "version": "6.13.3.1",
+    "culture": "ja-JP",
+    "resourceCount": 733,
+    "methodCount": 0,
+    "sha256": "8be7cb2b6fd55fac3e4c9dffbe480e85471ff2369ea7b4db4819546aa456576b"
+  },
+  {
+    "path": "payload/zh-CN/VOCALOID6.resources.dll",
+    "name": "VOCALOID6.resources",
+    "version": "6.13.3.1",
+    "culture": "zh-CN",
+    "resourceCount": 733,
+    "methodCount": 0,
+    "sha256": "9a3e2e386a9520db969e2d5cea5cd3bca4300a26e138423017c94ad0ea0fab07"
+  },
+  {
+    "path": "payload/zh-CN/VOCALOID6Plugin.resources.dll",
+    "name": "VOCALOID6Plugin.resources",
+    "version": "6.13.3.1",
+    "culture": "zh-CN",
+    "resourceCount": 733,
+    "methodCount": 0,
+    "sha256": "f96a943f23bb3e86ee491a629b0811acf1503d3e1c0db0fb255cf3c4fbc86b69"
+  }
+]

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>$(ParentName)</AssemblyName>
+    <AssemblyVersion>6.13.3.1</AssemblyVersion>
+    <FileVersion>6.13.3.1</FileVersion>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <GenerateSatelliteAssembliesForCore>true</GenerateSatelliteAssembliesForCore>
+    <Deterministic>true</Deterministic><PathMap>$(MSBuildProjectDirectory)=/src/V6CN</PathMap>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings.zh-CN.resx">
+      <LogicalName>Yamaha.VOCALOID.Properties.Resources.zh-CN.resources</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Strings.ja-JP.resx">
+      <LogicalName>Yamaha.VOCALOID.Properties.Resources.ja-JP.resources</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

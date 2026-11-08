@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net8.0</TargetFramework><OutputType>Exe</OutputType><AssemblyName>V6CN.Toolkit</AssemblyName><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><Deterministic>true</Deterministic><PathMap>$(MSBuildProjectDirectory)=/src/V6CN</PathMap><DebugType>none</DebugType></PropertyGroup></Project>

@@ -1,0 +1,848 @@
+﻿ResourceKey,English,Japanese,Chinese,ReviewStatus
+AboutDlg_Title,About VOCALOID6 Editor,VOCALOID6 Editor について,关于 VOCALOID6 Editor,文本审校完成；界面待验收
+AddAudioPartToMediaDlg_Title,Add Audio Part to Media,オーディオパートをメディアに追加,将音频片段添加到媒体库,文本审校完成；界面待验收
+AddPartToMediaDlg_AddNewTagDlg_TagName,Tag Name,タグ名,标签名称,文本审校完成；界面待验收
+AddPartToMediaDlg_AddNewTagDlg_Title,Add,追加,添加,文本审校完成；界面待验收
+AddPartToMediaDlg_Button_AddNewGenre,Add New Color,Color 追加,添加颜色,文本审校完成；界面待验收
+AddPartToMediaDlg_Button_AddNewType,Add New Type,Type 追加,添加类型,文本审校完成；界面待验收
+AddPartToMediaDlg_CannotSave,A media file with this name already exists. It cannot be overwritten.,その名前のメディアは既に存在するため、保存出来ません。,同名媒体已存在，无法保存。,文本审校完成；界面待验收
+AddPartToMediaDlg_MediaName,Media Name,メディア名,媒体名称,文本审校完成；界面待验收
+AddTrackDlg_Creation_Caption,Create,作成,创建,文本审校完成；界面待验收
+AddTrackDlg_PartDuration_Caption,Part Duration,パートの長さ,片段长度,文本审校完成；界面待验收
+AddTrackDlg_Title,Add Track,トラックを追加,添加轨道,文本审校完成；界面待验收
+AddTrackDlg_TrackCount_Caption,Track Count,トラック数,轨道数量,文本审校完成；界面待验收
+AddTrackDlg_TrackName_Caption,Track Name,トラック名,轨道名称,文本审校完成；界面待验收
+AddTrackDlg_VoiceBank_Caption,Voice,ボイス,声库,文本审校完成；界面待验收
+AddVocaloidPartToMediaDlg_Title,Add VOCALOID Part to Media,VOCALOIDパートをメディアに追加,将 VOCALOID 片段添加到媒体库,文本审校完成；界面待验收
+AiVibrato_Label,Assist,アシスト,辅助,文本审校完成；界面待验收
+AudioEffectWindow_EffectList,Effect List,Effect List,效果器列表,文本审校完成；界面待验收
+AudioEffectWindow_MasterTitle,MAIN,MAIN,主输出,文本审校完成；界面待验收
+AudioEffectWindow_TrackTitlePrefix,Track,Track,轨道,文本审校完成；界面待验收
+AudioMixdownDlg_AudioEngineOutput,Audio Engine Output,オーディオエンジン出力,音频引擎输出,文本审校完成；界面待验收
+AudioMixdownDlg_BitDepth,Bit Depth,ビット深度,位深度,文本审校完成；界面待验收
+AudioMixdownDlg_BypassEffectPlugins,Bypass Effect Plug-ins,オーディオエフェクトをバイパス,旁通音频效果器,文本审校完成；界面待验收
+AudioMixdownDlg_Channel,Channel,チャンネル,声道,文本审校完成；界面待验收
+AudioMixdownDlg_Channel_Mono,Mono,モノラル,单声道,文本审校完成；界面待验收
+AudioMixdownDlg_Channel_Stereo,Stereo,ステレオ,立体声,文本审校完成；界面待验收
+AudioMixdownDlg_MasterTrack,Main Track,メイントラック,主轨道,文本审校完成；界面待验收
+AudioMixdownDlg_MultiTrack,Multi Track,マルチトラック,多轨道,文本审校完成；界面待验收
+AudioMixdownDlg_OpenExplorer,Open folder after export to audio file,オーディオ書き出し後にフォルダを開く,导出音频后打开文件夹,文本审校完成；界面待验收
+AudioMixdownDlg_OverwriteInfo,A file with this name already exists. Overwrite existing file?,その名前のファイルは既に存在します。上書きしますか？,同名文件已存在。是否覆盖？,文本审校完成；界面待验收
+AudioMixdownDlg_SamplingRate,Sampling Rate,サンプリングレート,采样率,文本审校完成；界面待验收
+AudioMixdownDlg_Title,Audio Mixdown,オーディオミックスダウン,音频混缩导出,文本审校完成；界面待验收
+AudioMixdownDlg_TrackName,Name,トラック名,轨道名称,文本审校完成；界面待验收
+AudioMixdownDlg_TrackNumber,Number,番号,编号,文本审校完成；界面待验收
+AudioMixdownDlg_TrackSelection,Track Selection,トラックの選択,选择轨道,文本审校完成；界面待验收
+AudioMixdownDlg_TrackType,Type,種類,类型,文本审校完成；界面待验收
+AudioMixdownPartDlg_Title,Export to Audio File,パートをオーディオ書き出し,将片段导出为音频,文本审校完成；界面待验收
+AudioMixdownProgressDlg_Title,Audio Mixdown,オーディオミックスダウン,音频混缩导出,文本审校完成；界面待验收
+Button_Cancel,Cancel,キャンセル,取消,文本审校完成；界面待验收
+Button_Close,Close,閉じる,关闭,文本审校完成；界面待验收
+Button_OK,OK,OK,确定,文本审校完成；界面待验收
+Button_ResetMainTuning,Reset,リセット,重置,文本审校完成；界面待验收
+CheckInstallStatus_Title,Installed Products,インストールされている製品,已安装的产品,文本审校完成；界面待验收
+CheckUpdate_Button_No,Remind Me Later,いいえ,否,文本审校完成；界面待验收
+CheckUpdate_Button_Yes,Update Now (Launch Browser),はい (Web ブラウザを起動),是（打开网页浏览器）,文本审校完成；界面待验收
+CheckUpdate_CheckBox_DontCheckOnStartup,Don't check for updates upon launch.,起動時にアップデート確認を行わない,启动时不检查更新,文本审校完成；界面待验收
+CheckUpdate_Description1,A new version of VOCALOID Editor is available to download.,新しいバージョンの VOCALOID Editor が利用可能です。,有新版本的 VOCALOID Editor 可用。,文本审校完成；界面待验收
+CheckUpdate_Description2,Update now?,適用しますか?,是否更新？,文本审校完成；界面待验收
+CheckUpdate_GettingInfomation_Error,Failed to get updater information.,アップデートの確認に失敗しました。,检查更新失败。,文本审校完成；界面待验收
+CheckUpdate_Title,Check for Updates,アップデート確認,检查更新,文本审校完成；界面待验收
+CheckUpdate_UpToDate,Your software is up to date.,最新です。,已是最新版本。,文本审校完成；界面待验收
+CheckUpdate_Waiting,Getting Updater Information.,アップデート情報取得中,正在获取更新信息,文本审校完成；界面待验收
+ContentList_GettingInfomation_Error,Failed to get content information.,コンテンツ情報の取得に失敗しました。,获取内容信息失败。,文本审校完成；界面待验收
+ContentList_Waiting,Getting content information.,コンテンツ情報取得中。,正在获取内容信息。,文本审校完成；界面待验收
+ContextMenu_AddAudioTrack_Header,Add Audio Track(_W),オーディオトラック作成(_W),创建音频轨道(_W),文本审校完成；界面待验收
+ContextMenu_AddMidiAiTrack_Header,Add VOCALOID:AI Track(_I),VOCALOID:AIトラック作成(_A),创建 VOCALOID:AI 轨道(_A),文本审校完成；界面待验收
+ContextMenu_AddMidiTrack_Header,Add VOCALOID Track(_V),VOCALOIDトラック作成(_V),创建 VOCALOID 轨道(_V),文本审校完成；界面待验收
+ContextMenu_AddPartToMedia,Add Part to Media(_M)...,パートをメディアに追加(_M)...,将片段添加到媒体库(_M)...,文本审校完成；界面待验收
+ContextMenu_AddTrack_Header,Add Track...,トラック作成...,创建轨道…,文本审校完成；界面待验收
+ContextMenu_Amplitude_Header,Expression(_M),エクスプレッション(_M),表情(_M),文本审校完成；界面待验收
+ContextMenu_Arrow_Header,Arrow(_A),矢印(_A),箭头(_A),文本审校完成；界面待验收
+ContextMenu_AudioEffect_AllDelEffect,Delete All Audio Effects(_A),すべてのオーディオエフェクトを削除(_A),删除所有音频效果器(_A),文本审校完成；界面待验收
+ContextMenu_AudioEffect_DelEffect,Delete Audio Effect(_D),オーディオエフェクトの削除(_D),删除音频效果器(_D),文本审校完成；界面待验收
+ContextMenu_AudioMixdownPart_Header,Export to Audio File(_E)...,パートをオーディオ書き出し(_E)...,将片段导出为音频(_E)...,文本审校完成；界面待验收
+ContextMenu_ChangePhoneticSymbolProtect_Header,Phoneme Lock(_P),発音記号のプロテクト(_P),锁定音素(_P),文本审校完成；界面待验收
+ContextMenu_CloseParameterControl_Header,Close,閉じる,关闭,文本审校完成；界面待验收
+ContextMenu_Copy_Header,Copy(_C),コピー(_C),复制(_C),文本审校完成；界面待验收
+ContextMenu_Cut_Header,Cut(_T),切り取り(_T),剪切(_T),文本审校完成；界面待验收
+ContextMenu_Delete_Header,Delete(_D),削除(_D),删除(_D),文本审校完成；界面待验收
+ContextMenu_DivideNote_Header,Divide Note Equally(_D),ノートの均等分割(_D),均匀拆分音符(_D),文本审校完成；界面待验收
+ContextMenu_Double_Tempo,Double Tempo,ダブルテンポ,速度加倍,文本审校完成；界面待验收
+ContextMenu_DuplicateTrack_Header,Duplicate Track,トラックの複製,复制轨道,文本审校完成；界面待验收
+ContextMenu_EditDuplicate_Header,Duplicate(_D),複製(_D),创建副本(_D),文本审校完成；界面待验收
+ContextMenu_Emotion_Header,Emotion(_E),エモーション(_E),情感(_E),文本审校完成；界面待验收
+ContextMenu_EndMarker_Move_Header,Set End Marker to Song Position(_E),エンドマーカーをソングポジション位置に設定(_E),将结束标记设为播放光标位置(_E),文本审校完成；界面待验收
+ContextMenu_ExtractLyrics_Header,Extract Lyrics(_X),歌詞の抽出(_X),提取歌词(_X),文本审校完成；界面待验收
+ContextMenu_FullQuantizeNotes_Header,Quantize,クオンタイズ,量化,文本审校完成；界面待验收
+ContextMenu_HalfQuantizeNotes_Header,Quantize 50%,クオンタイズ 50%,量化 50%,文本审校完成；界面待验收
+ContextMenu_Half_Tempo,Half Tempo,ハーフテンポ,速度减半,文本审校完成；界面待验收
+ContextMenu_InsertRest_Header,Insert Rest(_I),休符の挿入(_I),插入休止符(_I),文本审校完成；界面待验收
+ContextMenu_JoinNotes_Header,Join Notes(_J),ノートの結合(_J),合并音符(_J),文本审校完成；界面待验收
+ContextMenu_JoinSelectedParts_Header,Join Parts(_J),パートの結合(_J),合并片段(_J),文本审校完成；界面待验收
+ContextMenu_Line_Header,Line(_L),ライン(_L),直线(_L),文本审校完成；界面待验收
+ContextMenu_LyricMoveLeft_Header,Shift Lyrics Left(_L),歌詞を一文字前にずらす(_L),歌词前移一字(_L),文本审校完成；界面待验收
+ContextMenu_LyricMoveRight_Header,Shift Lyrics Right(_R),歌詞を一文字後ろにずらす(_R),歌词后移一字(_R),文本审校完成；界面待验收
+ContextMenu_MSDandWavExport_Header,MSD and Export to WAV(_W)...,MSD付きでWavエクスポート(_W)...,导出带 MSD 的 WAV(_W)...,文本审校完成；界面待验收
+ContextMenu_Media_DeleteClip,Delete Media(_D),メディアを削除(_D),删除媒体(_D),文本审校完成；界面待验收
+ContextMenu_Media_EditClip,Edit Media Properties(_E),メディア情報を編集(_E),编辑媒体信息(_E),文本审校完成；界面待验收
+ContextMenu_MidiTrack_AddMidiPart_Header,Create Part on Song Position(_P),ソングポジション位置にパートを新規作成(_P),在播放光标位置新建片段(_P),文本审校完成；界面待验收
+ContextMenu_MusicalEditorJob_Header,Job(_J),ジョブ(_J),处理(_J),文本审校完成；界面待验收
+ContextMenu_New_Header,Create Time Signature on Song Position(_N),ソングポジション位置に拍子イベントを新規作成(_N),在播放光标位置新建拍号事件(_N),文本审校完成；界面待验收
+ContextMenu_NormalizeNote_Header,Resolve Overlaps(_N),オーバーラップを解消(_N),消除音符重叠(_N),文本审校完成；界面待验收
+ContextMenu_NormalizeWave_Header,Normalize Audio Wave(_N),オーディオパートのゲインノーマライズ(_N),音频片段增益归一化(_N),文本审校完成；界面待验收
+ContextMenu_PaintToolGroup_Header,Paint Tool Group(_P),ペイントツールグループ(_P),绘制工具组(_P),文本审校完成；界面待验收
+ContextMenu_PasteNoteProperty_Header,Paste Special,形式を選択して貼り付け,选择性粘贴,文本审校完成；界面待验收
+ContextMenu_PastePartProperty_Header,Paste Special,形式を選択して貼り付け,选择性粘贴,文本审校完成；界面待验收
+ContextMenu_Paste_Header,Paste(_P),貼り付け(_P),粘贴(_P),文本审校完成；界面待验收
+ContextMenu_Pencil_Header,Pencil(_P),鉛筆(_P),铅笔(_P),文本审校完成；界面待验收
+ContextMenu_PhonemeTiming_Header,Timing(_H),タイミング(_H),音素时序(_H),文本审校完成；界面待验收
+ContextMenu_PitchToolGroup_Header,Pitch Tool Group(_P),ピッチツールグループ(_P),音高工具组(_P),文本审校完成；界面待验收
+ContextMenu_RenamePart_Header,Edit Part Name,パート名を変更,重命名片段,文本审校完成；界面待验收
+ContextMenu_Repeat_Playback_Header,Repeat(_R),リピート(_R),循环(_R),文本审校完成；界面待验收
+ContextMenu_ResetControlParametersToDefault_Header,Reset Control Parameters to Default,コントロールパラメーターを初期値に戻す,将控制参数恢复为默认值,文本审校完成；界面待验收
+ContextMenu_ResetLyrics_Header,Reset Lyrics(_R),歌詞のリセット(_R),重置歌词(_R),文本审校完成；界面待验收
+ContextMenu_Scissors_Header,Scissors(_S),はさみ(_S),剪刀(_S),文本审校完成；界面待验收
+ContextMenu_SelectAllControlParameters_Header,Select All Control Parameters(_P),全てのコントロールパラメーターを選択(_P),选择所有控制参数(_P),文本审校完成；界面待验收
+ContextMenu_SelectAllMasterVolumes_Header,Select All Main Volumes(_M),全てのメインボリュームイベントを選択(_M),选择所有主音量事件(_M),文本审校完成；界面待验收
+ContextMenu_SelectAllNotes_Header,Select All Notes(_N),全てのノートを選択(_N),选择所有音符(_N),文本审校完成；界面待验收
+ContextMenu_SelectAllTempos_Header,Select All Tempos(_T),全てのテンポイベントを選択(_T),选择所有速度事件(_T),文本审校完成；界面待验收
+ContextMenu_SelectAllTimeSigs_Header,Select All Time Signatures(_T),全ての拍子イベントを選択(_T),选择所有拍号事件(_T),文本审校完成；界面待验收
+ContextMenu_SelectAll_Header,Select All(_A),全てを選択(_A),全选(_A),文本审校完成；界面待验收
+ContextMenu_SetRepeatToSelectionRange_Header,Set Repeat to Selection Range,選択区間をリピート区間に設定,将选区设为循环范围,文本审校完成；界面待验收
+ContextMenu_SplitNote_Header,Split Note(_P),ノートの分割(_P),拆分音符(_P),文本审校完成；界面待验收
+ContextMenu_StaccatoNote_Header,Staccato(_S),スタッカート(_S),断奏(_S),文本审校完成；界面待验收
+ContextMenu_StartMarker_Move_Header,Set Start Marker to Song Position(_S),スタートマーカーをソングポジション位置に設定(_S),将起始标记设为播放光标位置(_S),文本审校完成；界面待验收
+ContextMenu_StyleSearch_DeleteStylePreset,Delete Style Presets(_D),スタイルプリセットを削除(_D),删除风格预设(_D),文本审校完成；界面待验收
+ContextMenu_StyleSearch_EditStylePreset,Edit Style Preset Properties(_E),スタイルプリセット情報を編集(_E),编辑风格预设信息(_E),文本审校完成；界面待验收
+ContextMenu_TransposeNote_Header,Transpose(_T),トランスポーズ(_T),移调(_T),文本审校完成；界面待验收
+ContextMenu_Vibrato_Header,Vibrato(_I),ビブラート(_I),颤音(_I),文本审校完成；界面待验收
+ConvertPhoneticSymbolsDlg_Languages_Chinese,Chinese,中国語,中文,文本审校完成；界面待验收
+ConvertPhoneticSymbolsDlg_Languages_English,English,英語,英语,文本审校完成；界面待验收
+ConvertPhoneticSymbolsDlg_Languages_Japanese,Japanese,日本語,日语,文本审校完成；界面待验收
+ConvertPhoneticSymbolsDlg_Languages_Korean,Korean,韓国語,韩语,文本审校完成；界面待验收
+ConvertPhoneticSymbolsDlg_Languages_Spanish,Spanish,スペイン語,西班牙语,文本审校完成；界面待验收
+ConvertPhoneticSymbolsDlg_Lauguage,Please select a language,言語を選択してください,请选择语言,文本审校完成；界面待验收
+ConvertPhoneticSymbolsDlg_Title,Convert Phonemes to Match Language,発音記号を言語に合わせて変換,按语言转换音素,文本审校完成；界面待验收
+CustomizeShortcutDlg_ChageedImportPresetFile,Set the current preset to the imported one?,インポートしたプリセットに切り替えますか？,是否切换到导入的预设？,文本审校完成；界面待验收
+CustomizeShortcutDlg_ChangePresetName,Rename,名前の変更,重命名,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandBeginEditSongPosition,Edit Song Position,ソングポジションの編集,编辑播放光标位置,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandChangeInputtingMode,Change Lyric Input Mode,歌詞入力モードを変更,更改歌词输入模式,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandDivideNote,Divide Note,ノートの均等分割,均匀拆分音符,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandDoubleTempo,Double Tempo,ダブルテンポ,速度加倍,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandExtractLyrics,Extract Lyrics,歌詞の抽出,提取歌词,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandFastForwardByBar,Fast Forward by Bar,小節単位で早送り,按小节快进,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandFastRewindByBar,Fast Rewind by Bar,小節単位で早戻し,按小节快退,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandForwardByBar,Forward by Bar,小節単位で先へ進む,前进一小节,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandForwardByGrid,Forward by Grid,グリッド単位で先へ進む,前进一格,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandFullQuantizeNotes,Quantize,クオンタイズ,量化,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandHalfQuantizeNotes,Quantize 50%,クオンタイズ 50%,量化 50%,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandHalfTempo,Half Tempo,ハーフテンポ,速度减半,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandImportAudio,Import - Audio File,インポート - オーディオファイル,导入 - 音频文件,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandImportMidi,Import - MIDI File,インポート - MIDI ファイル,导入 - MIDI 文件,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandImportPpsf,Import - PPSF File,インポート - PPSF ファイル,导入 - PPSF 文件,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandImportTempoAndTimeSig,Import - Tempo and Time Signature,インポート - テンポと拍子,导入 - 速度与拍号,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandImportVpr,Import - VPR File,インポート - VPR ファイル,导入 - VPR 文件,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandImportVsqx,Import - VSQX File,インポート - VSQX ファイル,导入 - VSQX 文件,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandInsertRest,Insert Rest,休符の挿入,插入休止符,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandJoinNotes,Join Notes,ノートの結合,合并音符,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandNameHeader,Command,コマンド,命令,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandNormalizeNote,Delete Overlaps,オーバーラップを解消,消除音符重叠,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandPasteNoteProperty,Note - Paste Special,ノート - 形式を選択して貼り付け,音符 - 选择性粘贴,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandPastePartProperty,Part - Paste Special,パート - 形式を選択して貼り付け,片段 - 选择性粘贴,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantize1,Grid - 1/1,グリッド - 1/1,网格 - 1/1,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantize16,Grid - 1/16,グリッド - 1/16,网格 - 1/16,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantize2,Grid - 1/2,グリッド - 1/2,网格 - 1/2,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantize32,Gird - 1/32,グリッド - 1/32,网格 - 1/32,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantize4,Grid - 1/4,グリッド - 1/4,网格 - 1/4,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantize64,Grid - 1/64,グリッド - 1/64,网格 - 1/64,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantize8,Grid - 1/8,グリッド - 1/8,网格 - 1/8,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantizeNext,Next Grid,次のグリッド,下一个网格间距,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantizeOff,Grid - Off,グリッド - Off,网格 - 关闭,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantizePrevious,Previous Grid,前のグリッド,上一个网格间距,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandQuantizeTriplet,Grid - Triplet,グリッド - 3連符,网格 - 三连音,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandResetControlParametersToDefault,Reset Control Parameters to Default,コントロールパラメーターを初期値に戻す,将控制参数恢复为默认值,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandResetLyrics,Reset Lyrics,歌詞のリセット,重置歌词,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandRewindByBar,Rewind by Bar,小節単位で巻き戻し,后退一小节,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandRewindByGrid,Rewind by Grid,グリッド単位で巻き戻し,后退一格,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandSetPaintToolGroup,Paint Tool Group,ペイントツールグループ,绘制工具组,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandSetPitchToolGroup,Pitch Tool Group,ピッチツールグループ,音高工具组,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandShiftLyricsLeft,Shift Lyrics Left,歌詞を一文字前にずらす,歌词前移一字,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandShiftLyricsRight,Shift Lyrics Right,歌詞を一文字後ろにずらす,歌词后移一字,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandSplitNote,Split Note,ノートの分割,拆分音符,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandStaccatoNote,Staccato,スタッカート,断奏,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandToggleBreathBypass,Breath,ブレス,换气声,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandToggleGlobalMute,Global Mute,グローバルミュート,全局静音,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandToggleGlobalSolo,Global Solo,グローバルソロ,全局独奏,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandToggleMute,Mute,ミュート,静音,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandTogglePhonemeLock,Phoneme Lock,発音記号のプロテクト,锁定音素,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandTogglePlayback,Toggle Play/Stop,再生/停止切り替え,切换播放/停止,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandTogglePlaybackGuideSound,Acoustic Feedback,試聴モード,试听模式,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandToggleRobotVoiceBypass,Robot Voice,ロボットボイス,机器人声,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandToggleSolo,Solo,ソロ,独奏,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandTransposeNote,Transpose,トランスポーズ,移调,文本审校完成；界面待验收
+CustomizeShortcutDlg_CommandsSearchTextBoxPlaceholder,Search Commands,コマンドを検索,搜索命令,文本审校完成；界面待验收
+CustomizeShortcutDlg_Delete,Remove,削除,删除,文本审校完成；界面待验收
+CustomizeShortcutDlg_DeletePreset,Delete,削除,删除,文本审校完成；界面待验收
+CustomizeShortcutDlg_Discard,Discard,破棄,放弃,文本审校完成；界面待验收
+CustomizeShortcutDlg_DisplayShortcutKeyHeader,Keys,キー,按键,文本审校完成；界面待验收
+CustomizeShortcutDlg_EnterTheKey,Press key:,キーを入力:,请输入按键：,文本审校完成；界面待验收
+CustomizeShortcutDlg_Export,Export,エクスポート,导出,文本审校完成；界面待验收
+CustomizeShortcutDlg_Import,Import,インポート,导入,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageClosingError,An error occurred while closing the dialog. Discard changes and exit dialog.,ダイアログ終了中にエラーが発生しました。 編集情報を削除してダイアログを終了します。,关闭对话框时发生错误。将丢弃编辑内容并关闭对话框。,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageConfirmationButtonError,Failed to save changes. Discard changes and exit dialog.,編集情報の保存に失敗しました。 編集情報を削除してダイアログを終了します。,无法保存编辑内容。将丢弃编辑内容并关闭对话框。,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageCreatePresetFilePath,Failed to create preset file path.,プリセットのファイルパス作成に失敗しました。,无法创建预设文件路径。,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageDeletePresetFile,Delete the current preset?,現在のプリセットを削除しますか？,是否删除当前预设？,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageDeletePresetFileError,Failed to delete preset file.,プリセットファイルの削除に失敗しました。,无法删除预设文件。,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageDiscardPreset,Discard preset changes?,プリセット編集を破棄しますか？,是否放弃对预设的修改？,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageOpenShortcutKeyPresetFileError,Failed to open preset file.,プリセットファイルの読込みに失敗しました。,无法读取预设文件。,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageOverWrite,Overwrite the shortcut key?,ショートカットキーを上書きしますか？,是否覆盖快捷键？,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessagePathSystemShortcutKeysNotFoundError,System shortcut path does not exist.,システムショートカットパスが存在しません。,系统快捷键路径不存在。,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageRenamePreset,Enter preset name:,プリセット名を入力してください。,请输入预设名称。,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageResetShortcutKey,Reset the shortcuts for this command to its default setting?,このコマンドのショートカットをデフォルト設定に戻しますか？,是否将此命令的快捷键恢复为默认设置？,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageShortcutKeyDelete,Remove the selected shortcut key?,ショートカットキーを削除しますか？,是否删除快捷键？,文本审校完成；界面待验收
+CustomizeShortcutDlg_MessageWriteShortcutKeyPresetFileError,Failed to write preset file.,プリセットファイルの書き込みに失敗しました。,无法写入预设文件。,文本审校完成；界面待验收
+CustomizeShortcutDlg_PresetFileOverWrite,A file with this name already exists. Overwrite existing file?,その名前のファイルは既に存在します。上書きしますか？,同名文件已存在。是否覆盖？,文本审校完成；界面待验收
+CustomizeShortcutDlg_PresetHeader,Preset,プリセット,预设,文本审校完成；界面待验收
+CustomizeShortcutDlg_PresetSuffixName,Modified,編集済,已编辑,文本审校完成；界面待验收
+CustomizeShortcutDlg_Register,Assign,登録,指定,文本审校完成；界面待验收
+CustomizeShortcutDlg_Reset,Reset,リセット,重置,文本审校完成；界面待验收
+CustomizeShortcutDlg_SaveEditPresetFile,Save your changes in the current preset?,プリセットが編集中です。保存しますか？,正在编辑预设。是否保存？,文本审校完成；界面待验收
+CustomizeShortcutDlg_TextDuplicateMessage,Already assigned to:,重複あり:,存在冲突：,文本审校完成；界面待验收
+CustomizeShortcutDlg_TitleRenamePreset,Rename Preset,プリセット名の変更,重命名预设,文本审校完成；界面待验收
+CustomizeShortcutsDlg_Title,Keyboard Shortcuts,キーボードショートカット,键盘快捷键,文本审校完成；界面待验收
+DataUseDlg_Allowance_Caption,Allow,許可する,允许,文本审校完成；界面待验收
+DataUseDlg_Decline_Caption,Don't Allow,許可しない,不允许,文本审校完成；界面待验收
+DataUseDlg_Message,"In order to improve the quality of this software/service, this software sends data that does not identify individuals to third parties. Yamaha and concerned third-parties collect and store data related to the use of this software, including customer access conditions, devices, OS versions and numbers of users.
+Do you permit transmission of software use conditions?","本ソフトウェア・サービスの品質向上のため、本ソフトウェアは個人を特定しない一定の情報を第三者に送信します。ヤマハおよび当該第三者は、お客様のアクセス状況、デバイス、OSバージョン、ユーザー数等を含めた本ソフトウェアの利用に関する情報を収集保存します。
+ソフトウェア使用状況の送信を許可しますか?","为改进本软件及服务的质量，本软件会向第三方发送不识别个人身份的特定信息。雅马哈及该第三方将收集并保存与本软件使用情况有关的信息，包括访问情况、设备、操作系统版本及用户数量等。
+是否允许发送软件使用情况？",文本审校完成；界面待验收
+DataUseDlg_Title,VOCALOID6 Editor,VOCALOID6 Editor,VOCALOID6 Editor,文本审校完成；界面待验收
+DivideNote_Alert_Label,Note length is too small.,ノート長さが小さくなりすぎます。,拆分后的音符过短。,文本审校完成；界面待验收
+DivideNote_Label,Number of divisions:,分割数:,拆分数量：,文本审校完成；界面待验收
+DivideNote_Title,Divide Note Equally,ノートの均等分割,均匀拆分音符,文本审校完成；界面待验收
+DownloadContent_Completed,Installation Complete.,インストールが完了しました。,安装完成。,文本审校完成；界面待验收
+DownloadContent_Description,Additional VOCALOID content is available to download.,VOCALOID の追加コンテンツをダウンロードすることができます。,可以下载 VOCALOID 的附加内容。,文本审校完成；界面待验收
+DownloadContent_Stopped,Installation Interrupted.,インストールが中断されました。,安装已中断。,文本审校完成；界面待验收
+DownloadContent_Title,Download New Content,コンテンツのダウンロード,下载内容,文本审校完成；界面待验收
+EditHandle_AmplitudeEnd_DisplayName,Following Expression,後方エクスプレッション,后部表情,文本审校完成；界面待验收
+EditHandle_AmplitudeStart_DisplayName,Leading Expression,前方エクスプレッション,前部表情,文本审校完成；界面待验收
+EditHandle_AmplitudeWhole_DisplayName,Middle Expression,中間エクスプレッション,中部表情,文本审校完成；界面待验收
+EditHandle_PitchDriftEnd_DisplayName,Following Drift,後方ドリフト,后部音高漂移,文本审校完成；界面待验收
+EditHandle_PitchDriftStart_DisplayName,Leading Drift,前方ドリフト,前部音高漂移,文本审校完成；界面待验收
+EditHandle_PitchFine_DisplayName,Fine Tune,ファインピッチ,音高微调,文本审校完成；界面待验收
+EditHandle_PitchScalingOrigin_DisplayName,Overall Drift,全体ドリフト,整体音高漂移,文本审校完成；界面待验收
+EditHandle_PitchTransitionEnd_DisplayName,Following Transition,後方トランジション,后部音高过渡,文本审校完成；界面待验收
+EditHandle_PitchTransitionStart_DisplayName,Leading Transition,前方トランジション,前部音高过渡,文本审校完成；界面待验收
+EditHandle_VibratoDepth_DisplayName,Depth,深さ,深度,文本审校完成；界面待验收
+EditHandle_VibratoDuration_DisplayName,Vibrato Start,開始位置,起始位置,文本审校完成；界面待验收
+EditHandle_VibratoFollowingDepth_DisplayName,Following Depth,後方深さ,后部深度,文本审校完成；界面待验收
+EditHandle_VibratoLeadingDepth_DisplayName,Leading Depth,前方深さ,前部深度,文本审校完成；界面待验收
+EditHandle_VibratoRate_DisplayName,Rate,速度,速率,文本审校完成；界面待验收
+ExportSMFDlg_Title,ExportSMF,エクスポートSMF,导出 SMF,文本审校完成；界面待验收
+ExtractLyrics_Announce,The lyrics have been copied to the clipboard.,歌詞がクリップボードにコピーされました。,歌词已复制到剪贴板。,文本审校完成；界面待验收
+ExtractLyrics_Label,Lyric:,歌詞:,歌词：,文本审校完成；界面待验收
+ExtractLyrics_Title,Extract Lyrics,歌詞の抽出,提取歌词,文本审校完成；界面待验收
+FileDlg_Encoding,Character encoding of lyrics,歌詞の文字コード,歌词编码,文本审校完成；界面待验收
+FileDlg_Encoding_ShiftJis,Shift_JIS,Shift_JIS,Shift_JIS,文本审校完成；界面待验收
+FileDlg_Encoding_Utf8,UTF-8,UTF-8,UTF-8,文本审校完成；界面待验收
+FileDlg_Openable_Filter,VOCALOID5/6 Project|*.vpr|VOCALOID3/4 Sequence|*.vsqx|Piapro Studio Song|*.ppsf|All Files|*.vpr;*.vsqx;*.ppsf|All Files|*.*,VOCALOID5/6 プロジェクト|*.vpr|VOCALOID3/4 シーケンス|*.vsqx|Piapro Studio ソング|*.ppsf|すべてのファイル|*.vpr;*.vsqx;*.ppsf|すべてのファイル|*.*,VOCALOID5/6 工程|*.vpr|VOCALOID3/4 序列|*.vsqx|Piapro Studio 歌曲|*.ppsf|所有文件|*.vpr;*.vsqx;*.ppsf|所有文件|*.*,文本审校完成；界面待验收
+FileDlg_PPSF_Filter,Piapro Studio Song|*.ppsf|All Files|*.*,Piapro Studio ソング|*.ppsf|すべてのファイル|*.*,Piapro Studio 歌曲|*.ppsf|所有文件|*.*,文本审校完成；界面待验收
+FileDlg_SMF_Filter,SMF|*.mid;*.midi,SMF|*.mid;*.midi,SMF|*.mid;*.midi,文本审校完成；界面待验收
+FileDlg_ShortcutKey_Filter,VOCALOID Preset Files | *.vkeys,VOCALOID Preset Files | *.vkeys,VOCALOID Preset Files | *.vkeys,文本审校完成；界面待验收
+FileDlg_V6Proj_Filter,VOCALOID6 Sequence|*.vpr,VOCALOID6 シーケンス|*.vpr,VOCALOID6 序列|*.vpr,文本审校完成；界面待验收
+FileDlg_VPR_Filter,VOCALOID5/6 Project|*.vpr|All Files|*.*,VOCALOID5/6 プロジェクト|*.vpr|すべてのファイル|*.*,VOCALOID5/6 工程|*.vpr|所有文件|*.*,文本审校完成；界面待验收
+FileDlg_VSQX_Filter,VOCALOID3/4 Sequence|*.vsqx|All Files|*.*,VOCALOID3/4 シーケンス|*.vsqx|すべてのファイル|*.*,VOCALOID3/4 序列|*.vsqx|所有文件|*.*,文本审校完成；界面待验收
+FileDlg_Wave_Filter,Wave File|*.wav|All Files|*.*,Wave ファイル|*.wav|すべてのファイル|*.*,WAV 文件|*.wav|所有文件|*.*,文本审校完成；界面待验收
+File_DefaultName,Untitled,名称未設定,未命名,文本审校完成；界面待验收
+FreezeProgressDlg_Title,Freeze,フリーズ,冻结,文本审校完成；界面待验收
+ImportSettingsDlg_Encoding,Character encoding of lyrics,歌詞の文字コード,歌词编码,文本审校完成；界面待验收
+ImportSettingsDlg_ImportTempoAndTimeSig,Import tempo and time signature,テンポと拍子をインポート,导入速度与拍号,文本审校完成；界面待验收
+ImportSettingsDlg_Title,Import Settings,インポート設定,导入设置,文本审校完成；界面待验收
+ImportSettingsDlg_TrackType,Track type,トラックタイプ,轨道类型,文本审校完成；界面待验收
+InsertLyricsDlg_NumNote_Caption,Max:,最大:,最多：,文本审校完成；界面待验收
+InsertLyricsDlg_NumNote_Unit,note,ノート,音符,文本审校完成；界面待验收
+InsertLyricsDlg_Title,Insert Lyrics,歌詞の流し込み,批量填入歌词,文本审校完成；界面待验收
+InsertRest_Info_Label, (1 beat = 480 Tick), (1拍 = 480 Tick), （1 拍 = 480 Tick）,文本审校完成；界面待验收
+InsertRest_Label,Rest length:,挿入する休符長さ:,插入的休止符长度：,文本审校完成；界面待验收
+InsertRest_Position_Label,Insert Position:,挿入する位置:,插入位置：,文本审校完成；界面待验收
+InsertRest_Title,Insert Rest,休符の挿入,插入休止符,文本审校完成；界面待验收
+MainMenu_Edit_AddAudioTrack_Header,Add Audio Track,オーディオトラック作成,创建音频轨道,文本审校完成；界面待验收
+MainMenu_Edit_AddMidiAiTrack_Header,Add VOCALOID:AI Track,VOCALOID:AIトラック作成,创建 VOCALOID:AI 轨道,文本审校完成；界面待验收
+MainMenu_Edit_AddMidiTrack_Header,Add VOCALOID Track,VOCALOIDトラック作成,创建 VOCALOID 轨道,文本审校完成；界面待验收
+MainMenu_Edit_Copy_Header,Copy,コピー,复制,文本审校完成；界面待验收
+MainMenu_Edit_Cut_Header,Cut,切り取り,剪切,文本审校完成；界面待验收
+MainMenu_Edit_DeleteTime_Header,Delete Time,範囲を切り詰めて削除,删除范围并前移后续内容,文本审校完成；界面待验收
+MainMenu_Edit_Delete_Header,Delete,削除,删除,文本审校完成；界面待验收
+MainMenu_Edit_DuplicateTrack_Header,Duplicate Track,トラックの複製,复制轨道,文本审校完成；界面待验收
+MainMenu_Edit_Duplicate_Header,Duplicate,複製,创建副本,文本审校完成；界面待验收
+MainMenu_Edit_Header,Edit,編集,编辑,文本审校完成；界面待验收
+MainMenu_Edit_InsertSilence_Header,Insert Silence,無音部分を挿入,插入静音,文本审校完成；界面待验收
+MainMenu_Edit_JoinEvents_Header,Join Events,イベントの結合,合并事件,文本审校完成；界面待验收
+MainMenu_Edit_Paste_Header,Paste,貼り付け,粘贴,文本审校完成；界面待验收
+MainMenu_Edit_Redo_Header,Redo,やり直し,重做,文本审校完成；界面待验收
+MainMenu_Edit_SelectAll_Header,Select All,全てを選択,全选,文本审校完成；界面待验收
+MainMenu_Edit_ShowAddTrackDlg_Header,Add Track...,トラック作成...,创建轨道…,文本审校完成；界面待验收
+MainMenu_Edit_Undo_Header,Undo,元に戻す,撤销,文本审校完成；界面待验收
+MainMenu_File_AppExit_Header,Quit VOCALOID6 Editor,VOCALOID6 Editor を終了,退出 VOCALOID6 Editor,文本审校完成；界面待验收
+MainMenu_File_AudioMixDown_Header,Audio Mixdown...,オーディオミックスダウン...,音频混缩导出…,文本审校完成；界面待验收
+MainMenu_File_ExportSMF_Header,Export MIDI...,エクスポート (MIDI)...,导出（MIDI）…,文本审校完成；界面待验收
+MainMenu_File_Export_Header,Export VPR...,エクスポート (VPR)...,导出（VPR）...,文本审校完成；界面待验收
+MainMenu_File_Header,File,ファイル,文件,文本审校完成；界面待验收
+MainMenu_File_ImportAudio_Header,Audio File...,オーディオファイル...,音频文件…,文本审校完成；界面待验收
+MainMenu_File_ImportMidi_Header,MIDI File...,MIDI ファイル...,MIDI 文件…,文本审校完成；界面待验收
+MainMenu_File_ImportPpsf_Header,PPSF File...,PPSF ファイル...,PPSF 文件...,文本审校完成；界面待验收
+MainMenu_File_ImportTempoAndSignature_Header,Tempo and Time Signature...,テンポと拍子...,速度与拍号...,文本审校完成；界面待验收
+MainMenu_File_ImportVpr_Header,VPR File...,VPR ファイル...,VPR 文件...,文本审校完成；界面待验收
+MainMenu_File_ImportVsqx_Header,VSQX File...,VSQX ファイル...,VSQX 文件...,文本审校完成；界面待验收
+MainMenu_File_Import_Header,Import,インポート,导入,文本审校完成；界面待验收
+MainMenu_File_New_Header,New,新規,新建,文本审校完成；界面待验收
+MainMenu_File_OpenRecent_Header,Open Recent...,最近使った項目を開く,打开最近使用的项目,文本审校完成；界面待验收
+MainMenu_File_Open_Header,Open...,開く...,打开…,文本审校完成；界面待验收
+MainMenu_File_ProjectSetting_Header,Project Settings...,プロジェクト設定...,工程设置…,文本审校完成；界面待验收
+MainMenu_File_Revert_Header,Revert,最後に保存した状態に戻す,恢复到上次保存的状态,文本审校完成；界面待验收
+MainMenu_File_SaveAs_Header,Save As...,名前を付けて保存...,另存为…,文本审校完成；界面待验收
+MainMenu_File_Save_Header,Save,保存,保存,文本审校完成；界面待验收
+MainMenu_Help_About_Header,About VOCALOID6 Editor...,VOCALOID6 Editor について...,关于 VOCALOID6 Editor...,文本审校完成；界面待验收
+MainMenu_Help_CheckInstallStatus_Header,Check for Installation Status...,インストール状況の確認...,检查安装状态...,文本审校完成；界面待验收
+MainMenu_Help_CheckUpdate_Header,Check for Updates...,アップデート確認...,检查更新...,文本审校完成；界面待验收
+MainMenu_Help_DownloadContents_Header,Download New Content...,コンテンツをダウンロード...,下载内容...,文本审校完成；界面待验收
+MainMenu_Help_Header,Help,ヘルプ,帮助,文本审校完成；界面待验收
+MainMenu_Help_OpenManual_Header,Reference Manual,リファレンスマニュアル,参考手册,文本审校完成；界面待验收
+MainMenu_Help_OpenNews_Header,News...,ニュース...,新闻...,文本审校完成；界面待验收
+MainMenu_Help_OpenOfficialSite_Header,vocaloid.com,vocaloid.com,vocaloid.com,文本审校完成；界面待验收
+MainMenu_Help_OpenTutorial_Header,Tutorial,チュートリアル,教程,文本审校完成；界面待验收
+MainMenu_Help_VoiceBanksVersion_Header,Voice Bank Version...,ボイスバンクのバージョン...,声库版本...,文本审校完成；界面待验收
+MainMenu_Job_AddPartToMedia_Header,Add Part to Media...,パートをメディアに追加...,将片段添加到媒体库...,文本审校完成；界面待验收
+MainMenu_Job_ConvertPhoneticSymbols_Header,Convert Phonemes to Match Language,発音記号を言語に合わせて変換,按语言转换音素,文本审校完成；界面待验收
+MainMenu_Job_Header,Job,ジョブ,处理,文本审校完成；界面待验收
+MainMenu_Job_InsertLyrics_Header,Insert Lyrics...,歌詞の流し込み...,批量填入歌词...,文本审校完成；界面待验收
+MainMenu_Job_LyricInputMode_Header,Lyric Input Mode,歌詞入力モード,歌词输入模式,文本审校完成；界面待验收
+MainMenu_Job_LyricInputMode_Letter_Header,Letter Mode,歌詞で入力,输入歌词,文本审校完成；界面待验收
+MainMenu_Job_LyricInputMode_PhoneticSymbol_Header,Phonetic Symbol Mode,発音記号で入力,输入音素,文本审校完成；界面待验收
+MainMenu_Job_NormalizeWave_Header,Normalize Audio Wave,オーディオパートのゲインノーマライズ,音频片段增益归一化,文本审校完成；界面待验收
+MainMenu_Job_PartAudioMixDown_Header,Export to Audio File...,パートをオーディオ書き出し...,将片段导出为音频...,文本审校完成；界面待验收
+MainMenu_Job_PlaybackGuideSound_Header,Acoustic Feedback,試聴モード,试听模式,文本审校完成；界面待验收
+MainMenu_Settings_CustomizeShortcuts_Header,Keyboard Shortcuts...,キーボードショートカット...,键盘快捷键...,文本审校完成；界面待验收
+MainMenu_Settings_Header,Setting,設定,设置,文本审校完成；界面待验收
+MainMenu_Settings_Preferences_Header,Preferences...,環境設定...,偏好设置…,文本审校完成；界面待验收
+MainMenu_Transport_AutoScroll_Header,Auto Scroll,オートスクロール,自动滚动,文本审校完成；界面待验收
+MainMenu_Transport_Header,Transport,トランスポート,播放控制,文本审校完成；界面待验收
+MainMenu_Transport_Play_Header,Play,再生,播放,文本审校完成；界面待验收
+MainMenu_Transport_Record_Header,Record,録音,录音,文本审校完成；界面待验收
+MainMenu_Transport_Repeat_Header,Repeat,リピート,循环,文本审校完成；界面待验收
+MainMenu_Transport_SetEndMarkerToSongPosition_Header,Set End Marker to Song Position,エンドマーカーをソングポジション位置に設定,将结束标记设为播放光标位置,文本审校完成；界面待验收
+MainMenu_Transport_SetRepeatToSelectionRange_Header,Set Repeat to Selection Range,選択区間をリピート区間に設定,将选区设为循环范围,文本审校完成；界面待验收
+MainMenu_Transport_SetStartMarkerToSongPosition_Header,Set Start Marker to Song Position,スタートマーカーをソングポジション位置に設定,将起始标记设为播放光标位置,文本审校完成；界面待验收
+MainMenu_Transport_StartMode_BeginLoop_Header,Start from Repeat Start,リピート区間の先頭から開始,从循环范围起点开始,文本审校完成；界面待验收
+MainMenu_Transport_StartMode_Header,Start Mode,スタートモード,起播模式,文本审校完成；界面待验收
+MainMenu_Transport_StartMode_SongPosition_Header,Start from Song Position,ソングポジションから開始,从播放光标位置开始,文本审校完成；界面待验收
+MainMenu_Transport_Stop_Header,Stop,停止,停止,文本审校完成；界面待验收
+MainMenu_View_Editor_Header,Editor,エディター,编辑器,文本审校完成；界面待验收
+MainMenu_View_Header,View,表示,视图,文本审校完成；界面待验收
+MainMenu_View_Inspector_Header,Inspector,インスペクター,检查器,文本审校完成；界面待验收
+MainMenu_View_Media_Header,Media,メディア,媒体库,文本审校完成；界面待验收
+MainMenu_View_Mixer_Header,Mixer,ミキサー,混音器,文本审校完成；界面待验收
+MainMenu_View_ShowMasterTrack_Header,Main Track,メイントラック,主轨道,文本审校完成；界面待验收
+MainMenu_View_ShowTempoTrack_Header,Tempo Track,テンポトラック,速度轨道,文本审校完成；界面待验收
+MainMenu_View_ShowTimeSigTrack_Header,TimeSig Track,拍子トラック,拍号轨道,文本审校完成；界面待验收
+MainMenu_View_ToggleControlParameterArea_Header,Show or Hide Control Parameters Area,コントロールパラメーターエリアの開閉,显示/隐藏控制参数区域,文本审校完成；界面待验收
+MainMenu_View_ToggleLowerZone_Header,Show or Hide Lower Zone,下ゾーンの開閉,展开/收起下方区域,文本审校完成；界面待验收
+MainMenu_View_ZoomFull_Header,Zoom Full,トラック全体を表示,显示全部轨道,文本审校完成；界面待验收
+MainMenu_View_ZoomInHorizontally_Header,Zoom In Horizontally,水平方向にズームイン,水平放大,文本审校完成；界面待验收
+MainMenu_View_ZoomInVertically_Header,Zoom In Vertically,垂直方向にズームイン,垂直放大,文本审校完成；界面待验收
+MainMenu_View_ZoomOutHorizontally_Header,Zoom Out Horizontally,水平方向にズームアウト,水平缩小,文本审校完成；界面待验收
+MainMenu_View_ZoomOutVertically_Header,Zoom Out Vertically,垂直方向にズームアウト,垂直缩小,文本审校完成；界面待验收
+MainMenu_View_ZoomToSelectedParts_Header,Zoom to Selected Parts,選択パートをズーム,缩放至所选片段,文本审校完成；界面待验收
+MainMenu_View_Zoom_Header,Zoom,ズーム,缩放,文本审校完成；界面待验收
+MediaEditDlg_Header,Edit Media Properties,メディア情報を編集,编辑媒体信息,文本审校完成；界面待验收
+MediaTag_ComboBox_DefaultString,---,---,---,文本审校完成；界面待验收
+MediaTag_ComboBox_Unset,(Unset),(未設定),（未设置）,文本审校完成；界面待验收
+Media_KeySetting_Tooltip,Media Pasting Key Transposition Settings,メディア貼り付け時の移調設定,粘贴媒体时的移调设置,文本审校完成；界面待验收
+Media_PartKey_None,None,なし,无,文本审校完成；界面待验收
+MidiPartPropertyDlg_PartName_Caption,Part Name,パート名,片段名称,文本审校完成；界面待验收
+MidiPartPropertyDlg_Title,MIDIPart Property,MIDIパートプロパティ,MIDI 片段属性,文本审校完成；界面待验收
+MsgBox_Activate_Products,Activate VOCALOID6 products.,VOCALOID6製品を認証して下さい。,请激活 VOCALOID6 产品。,文本审校完成；界面待验收
+MsgBox_Add_AudioPart_Error,Failed to add Audio part.,オーディオパートを追加できません。,无法添加音频片段。,文本审校完成；界面待验收
+MsgBox_Add_AudioTrack_Error,Failed to add Audio track.,オーディオトラックを追加できません。,无法添加音频轨道。,文本审校完成；界面待验收
+MsgBox_Add_ControlParameter_Error,Failed to add control parameter.,コントロールパラメーターを追加できません。,无法添加控制参数。,文本审校完成；界面待验收
+MsgBox_Add_MasterVolume_Error,Failed to add Main Volume.,メインボリュームの追加に失敗しました。,无法添加主音量事件。,文本审校完成；界面待验收
+MsgBox_Add_MidiAiTrack_Error,Failed to add VOCALOID:AI track.,VOCALOID:AIトラックを追加できません。,无法添加 VOCALOID:AI 轨道。,文本审校完成；界面待验收
+MsgBox_Add_MidiPart_Error,Failed to add VOCALOID part.,VOCALOIDパートを追加できません。,无法添加 VOCALOID 片段。,文本审校完成；界面待验收
+MsgBox_Add_MidiTrack_Error,Failed to add VOCALOID track.,VOCALOIDトラックを追加できません。,无法添加 VOCALOID 轨道。,文本审校完成；界面待验收
+MsgBox_Add_Note_Error,Failed to add note.,ノートを追加できません。,无法添加音符。,文本审校完成；界面待验收
+MsgBox_Add_Panpot_Error,Failed to add Panpot.,パンポットの追加に失敗しました。,无法添加声像事件。,文本审校完成；界面待验收
+MsgBox_Add_Tempo_Error,Failed to add Tempo.,テンポの追加に失敗しました。,无法添加速度事件。,文本审校完成；界面待验收
+MsgBox_Add_TimeSig_Error,Failed to add Time Signature.,拍子の追加に失敗しました。,无法添加拍号事件。,文本审校完成；界面待验收
+MsgBox_Add_TrackVolume_Error,Failed to add Track Volume.,トラックボリュームの追加に失敗しました。,无法添加轨道音量事件。,文本审校完成；界面待验收
+MsgBox_Add_Track_Error,Failed to add Track.,トラックを追加できません。,无法添加轨道。,文本审校完成；界面待验收
+MsgBox_App_MultipleStartup,This application is already running.,このアプリケーションは既に起動しています。,应用程序已在运行。,文本审校完成；界面待验收
+MsgBox_AudioDevice_DeviceChanged,Audio device was changed.,オーディオデバイスが変更されました。,音频设备已更改。,文本审校完成；界面待验收
+MsgBox_AudioDevice_FailedToSet,Failed to set audio device.,オーディオデバイス設定の変更に失敗しました。,无法更改音频设备设置。,文本审校完成；界面待验收
+MsgBox_AudioDevice_NotFound,Audio device not found.,使用可能なオーディオデバイスが存在しません。,没有可用的音频设备。,文本审校完成；界面待验收
+MsgBox_AudioEngineInitialization_Error,Failed to initialize Audio Engine.,Audio Engine の初期化に失敗しました！,音频引擎初始化失败！,文本审校完成；界面待验收
+MsgBox_AudioMixdown_FailedMixdown,Failed to mixdown audio.,オーディオミックスダウンに失敗しました。,音频混缩失败。,文本审校完成；界面待验收
+MsgBox_AudioMixdown_FailedMixdownMulti,Failed to perform multi track audio mixdown.,マルチトラックのオーディオミックスダウンに失敗しました。,多轨音频混缩失败。,文本审校完成；界面待验收
+MsgBox_AudioMixdown_FailedMixdownPart,Failed to perform partial audio mixdown.,パートのオーディオミックスダウンに失敗しました。,片段音频混缩失败。,文本审校完成；界面待验收
+MsgBox_AudioMixdown_FailedOpenExplorer,Failed to open explorer.,エクスプローラーを開けませんでした。,无法打开文件资源管理器。,文本审校完成；界面待验收
+MsgBox_AudioMixdown_FailedToExportAudioFileThisPlace,Failed to export Audio File this place. : Error ,この場所には保存できません。 エラー ,无法保存到此位置。错误 ,文本审校完成；界面待验收
+MsgBox_AudioMixdown_TheFileNameContainsInvalidCharacters,The file name contains invalid characters.,ファイル名に不正な文字が含まれています。,文件名包含无效字符。,文本审校完成；界面待验收
+MsgBox_AudioMixdown_ThePathNameIsTooLong,The path name is too long.,パス名が長すぎます。,路径过长。,文本审校完成；界面待验收
+MsgBox_ChangeStyleButton,Change Style,スタイルを変更する,更改风格,文本审校完成；界面待验收
+MsgBox_ClearCache,The cache clearing process is performed when closing the current project.,現在のプロジェクトを閉じる際に、キャッシュのクリア処理が行われます。,关闭当前工程时将清除缓存。,文本审校完成；界面待验收
+MsgBox_Copy_Error,Failed to copy.,コピーに失敗しました。,复制失败。,文本审校完成；界面待验收
+MsgBox_Cut_Error,Failed to cut.,切り取りに失敗しました。,剪切失败。,文本审校完成；界面待验收
+MsgBox_DSEManagerInitialization_Error,Failed to initialize DSE.,DSEの初期化に失敗しました！,DSE 初始化失败！,文本审校完成；界面待验收
+MsgBox_DatabaseManagerInitialization_Error,Failed to initialize Database Manager.,Database Manager の初期化に失敗しました！,数据库管理器初始化失败！,文本审校完成；界面待验收
+MsgBox_Delete_ControlParameter_Error,Failed to delete control parameter.,コントロールパラメーターの削除に失敗しました。,无法删除控制参数。,文本审校完成；界面待验收
+MsgBox_Delete_Error,Failed to delete.,削除に失敗しました。,删除失败。,文本审校完成；界面待验收
+MsgBox_Delete_MasterVolume_Error,Failed to delete Main Volume.,メインボリュームの削除に失敗しました。,无法删除主音量事件。,文本审校完成；界面待验收
+MsgBox_Delete_Panpot_Error,Failed to delete Panpot.,パンポットの削除に失敗しました。,无法删除声像事件。,文本审校完成；界面待验收
+MsgBox_Delete_Tempo_Error,Failed to delete tempo.,テンポの削除に失敗しました。,无法删除速度事件。,文本审校完成；界面待验收
+MsgBox_Delete_TrackVolume_Error,Failed to delete Track Volume.,トラックボリュームの削除に失敗しました。,无法删除轨道音量事件。,文本审校完成；界面待验收
+MsgBox_DialogsOpened_Info,Please close all open VOCALOID windows before opening sequence file.,ファイルオープンのために、表示されているすべてのダイアログを閉じてください。,请关闭所有已打开的对话框，然后打开文件。,文本审校完成；界面待验收
+MsgBox_Discard_Confirmation,"The edited data will be discarded.
+This action cannot be undone.
+Do you wish to continue?","編集したデータが破棄されます。(この操作は元に戻せません)
+よろしいですか？","编辑内容将被丢弃（此操作无法撤销）。
+是否继续？",文本审校完成；界面待验收
+MsgBox_Divide_AudioPart_Error,Failed to divide Audio part.,オーディオパートを分割できません。,无法拆分音频片段。,文本审校完成；界面待验收
+MsgBox_Divide_MidiPart_Error,Failed to divide VOCALOID Part.,VOCALOIDパートを分割できません。,无法拆分 VOCALOID 片段。,文本审校完成；界面待验收
+MsgBox_DoubleStart_Error,"VOCALOID6 Editor cannot launch because the VOCALOID6 Standalone Version, VSTi Version, or AU Version is already running.",VOCALOID6 スタンドアローン版 / VSTi版 / AU版 のいずれかがすでに起動しているため、VOCALOID6 Editor が起動できません。,VOCALOID6 独立版、VSTi 版或 AU 版已在运行，无法启动 VOCALOID6 Editor。,文本审校完成；界面待验收
+MsgBox_DoubleStart_Title_Error,Preventing double start,二重起動防止,防止重复启动,文本审校完成；界面待验收
+MsgBox_DoubleTempo_Error,Failed to perform Double Tempo.,ダブルテンポに失敗しました。,速度加倍失败。,文本审校完成；界面待验收
+MsgBox_Duplicate_AudioPart_Error,Failed to duplicate Audio part.,オーディオパートを複製できません。,无法创建音频片段副本。,文本审校完成；界面待验收
+MsgBox_Duplicate_Error,Failed to duplicate.,複製に失敗しました。,创建副本失败。,文本审校完成；界面待验收
+MsgBox_Duplicate_MasterVolume_Error,Failed to duplicate Main Volume.,メインボリュームの複製に失敗しました。,无法创建主音量事件副本。,文本审校完成；界面待验收
+MsgBox_Duplicate_MidiPart_Error,Failed to duplicate VOCALOID Part.,VOCALOIDパートを複製できません。,无法创建 VOCALOID 片段副本。,文本审校完成；界面待验收
+MsgBox_Duplicate_Panpot_Error,Failed to duplicate Panpot.,パンポットの複製に失敗しました。,无法创建声像事件副本。,文本审校完成；界面待验收
+MsgBox_Duplicate_Tempo_Error,Failed to duplicate Tempo.,テンポの複製に失敗しました。,无法创建速度事件副本。,文本审校完成；界面待验收
+MsgBox_Duplicate_TimeSig_Error,Failed to duplicate Time Signature.,拍子の複製に失敗しました。,无法创建拍号事件副本。,文本审校完成；界面待验收
+MsgBox_Duplicate_TrackVolume_Error,Failed to duplicate Track Volume.,トラックボリュームの複製に失敗しました。,无法创建轨道音量事件副本。,文本审校完成；界面待验收
+MsgBox_Duplicate_Track_Error,Failed to duplicate Track.,トラックの複製に失敗しました。,无法创建轨道副本。,文本审校完成；界面待验收
+MsgBox_Edit_Amplitude_Error,Failed to edit expression.,エクスプレッションを編集できません。,无法编辑表情。,文本审校完成；界面待验收
+MsgBox_Edit_ControlParameter_Error,Failed to edit control parameter.,コントロールパラメータを編集できません。,无法编辑控制参数。,文本审校完成；界面待验收
+MsgBox_Edit_Note_Error,Failed to edit note.,ノートを編集できません。,无法编辑音符。,文本审校完成；界面待验收
+MsgBox_Edit_PhonemeTiming_Error,Failed to edit timing.,タイミングを編集できません。,无法编辑音素时序。,文本审校完成；界面待验收
+MsgBox_Edit_Pitch_Error,Failed to edit pitch.,ピッチを編集できません。,无法编辑音高。,文本审校完成；界面待验收
+MsgBox_Edit_Vibrato_Error,Failed to edit vibrato.,ビブラートを編集できません。,无法编辑颤音。,文本审校完成；界面待验收
+MsgBox_ExpiredLeaseFile_Error,"Error activating with Splice
+
+Please ensure the Splice app is open and try again.","Spliceでのアクティベーションエラー
+
+Spliceアプリが正しく起動していることを確認して、再度お試しください。","Splice 激活错误
+
+请确认 Splice 应用程序已正常启动，然后重试。",文本审校完成；界面待验收
+MsgBox_ExpiredLeaseFile_Warning,"Error activating with Splice
+
+Please ensure the Splice app is open and try again.
+VOCALOID6 will start in the Lite version.","Spliceでのアクティベーションエラー
+
+Spliceアプリが正しく起動していることを確認して、再度お試しください。
+VOCALOID6はLite版として起動します。","Splice 激活错误
+
+请确认 Splice 应用程序已正常启动，然后重试。
+VOCALOID6 将以 Lite 版启动。",文本审校完成；界面待验收
+MsgBox_FailedToOpenRenderingFile,"Fatal Error: Failed to write synthesized audio file.
+
+Please save your project under a different name and then relaunch the application.","致命的なエラー: 合成オーディオファイルの書き出しに失敗しました。
+
+プロジェクトを別名で保存し、アプリケーションを再起動して下さい。","严重错误：无法导出合成音频文件。
+
+请将工程另存为新文件，然后重新启动应用程序。",文本审校完成；界面待验收
+MsgBox_Freeze_FailedFreeze,Failed to Freeze.,フリーズに失敗しました。,冻结失败。,文本审校完成；界面待验收
+MsgBox_G2PAManagerInitialization_Error,Failed to initialize G2PA Manager.,G2PA Manager の初期化に失敗しました！,G2PA 管理器初始化失败！,文本审校完成；界面待验收
+MsgBox_HalfTempo_Error,Failed to perform Half Tempo.,ハーフテンポに失敗しました。,速度减半失败。,文本审校完成；界面待验收
+MsgBox_HowToImportAudio,Insert audio on one track or insert each on different track?,"オーディオファイルをまとめて1つのトラックに挿入しますか？
+1つ1つを別々のトラックに挿入しますか？","是否将所有音频文件插入同一轨道？
+还是分别插入不同轨道？",文本审校完成；界面待验收
+MsgBox_ImportAudioOnOne,One track,1つのトラック,同一轨道,文本审校完成；界面待验收
+MsgBox_ImportAudioPerTrack,Different tracks,異なるトラック,不同轨道,文本审校完成；界面待验收
+MsgBox_ImportFile_Load_Error,Failed to import file.,ファイルのインポートに失敗しました。,无法导入文件。,文本审校完成；界面待验收
+MsgBox_ImportFile_Load_Error_DueToUnsupportedVersion,"Failed to import the file.
+This version of the file is not supported.","ファイルのインポートに失敗しました。
+このバージョンのファイルはサポートされていません。","无法导入文件。
+不支持此文件版本。",文本审校完成；界面待验收
+MsgBox_ImportTempoAndBeat,Import tempo and time signature?,テンポと拍子をインポートしますか?,是否导入速度与拍号？,文本审校完成；界面待验收
+MsgBox_InvalidHash_Error,Failed to initialize DSE.,DSE の初期化に失敗しました。,DSE 初始化失败。,文本审校完成；界面待验收
+MsgBox_KeepStyleButton,Keep Current Style,スタイルを維持する,保留风格,文本审校完成；界面待验收
+MsgBox_Load_WavFile_Error,The Wav file could not be loaded.,Wavファイルを読み込むことができませんでした。,无法读取 WAV 文件。,文本审校完成；界面待验收
+MsgBox_LuaControllerInitialization_Error,Failed to initialize Lua Controller.,Lua Controller の初期化に失敗しました！,Lua 控制器初始化失败！,文本审校完成；界面待验收
+MsgBox_LuaManagerInitialization_Error,Failed to initialize Lua Manager.,Lua Manager の初期化に失敗しました！,Lua 管理器初始化失败！,文本审校完成；界面待验收
+MsgBox_MediaManagerInitialization_Error,Failed to initialize Media Manager.,Media Manager の初期化に失敗しました！,媒体管理器初始化失败！,文本审校完成；界面待验收
+MsgBox_Media_DeleteInfo,Are you sure you want to delete {0}? This action cannot be undone.,{0} を削除しますか？削除すると元には戻せません。,是否删除 {0}？删除后无法恢复。,文本审校完成；界面待验收
+MsgBox_Media_FailedToDeleteMedia,Failed to delete media.,メディアの削除に失敗しました。,无法删除媒体。,文本审校完成；界面待验收
+MsgBox_Move_AudioEffect_Error,Failed to move Audio Effect.,オーディオエフェクトの移動に失敗しました。,无法移动音频效果器。,文本审校完成；界面待验收
+MsgBox_Move_AudioPart_Error,Failed to move Audio part.,オーディオパートを移動できません。,无法移动音频片段。,文本审校完成；界面待验收
+MsgBox_Move_MasterVolume_Error,Failed to move Main Volume.,メインボリュームの移動に失敗しました。,无法移动主音量事件。,文本审校完成；界面待验收
+MsgBox_Move_MidiPart_Error,Failed to move VOCALOID part.,VOCALOIDパートを移動できません。,无法移动 VOCALOID 片段。,文本审校完成；界面待验收
+MsgBox_Move_Panpot_Error,Failed to move Panpot.,パンポットの移動に失敗しました。,无法移动声像事件。,文本审校完成；界面待验收
+MsgBox_Move_Tempo_Error,Failed to move Tempo.,テンポの移動に失敗しました。,无法移动速度事件。,文本审校完成；界面待验收
+MsgBox_Move_TimeSig_Error,Failed to move Time Signature.,拍子の移動に失敗しました。,无法移动拍号事件。,文本审校完成；界面待验收
+MsgBox_Move_TrackVolume_Error,Failed to move Track Volume.,トラックボリュームの移動に失敗しました。,无法移动轨道音量事件。,文本审校完成；界面待验收
+MsgBox_Move_Track_Error,Failed to move track.,トラックを移動できません。,无法移动轨道。,文本审校完成；界面待验收
+MsgBox_Name_ContainsSpace,This name contains space.,名前に空白文字が含まれています。,名称包含空白字符。,文本审校完成；界面待验收
+MsgBox_Name_Invalid,Invalid Name.,不正な名前です。,名称无效。,文本审校完成；界面待验收
+MsgBox_Name_Null,Name Empty.,名前が入力されていません。,尚未输入名称。,文本审校完成；界面待验收
+MsgBox_OpenUrl_Error,Failed to open URL.,URL を開くことができませんでした。,无法打开网址。,文本审校完成；界面待验收
+MsgBox_Open_Sequence_BackupFileHasBeenFound,A backup file was found. Do you want to restore from it?,バックアップファイルが見つかりました。バックアップファイルから復元しますか？,找到备份文件。是否从备份恢复？,文本审校完成；界面待验收
+MsgBox_Open_Sequence_Error,Failed to open file.,ファイルの読み込みに失敗しました。,无法读取文件。,文本审校完成；界面待验收
+MsgBox_Open_Sequence_InvalidDataException_Error,An archive entry was not found or was corrupt.,アーカイブ エントリが見つからないか、破損しています。,归档条目不存在或已损坏。,文本审校完成；界面待验收
+MsgBox_Open_Sequence_LiteLimitedTrackDeletion,Tracks that exceeded the track limit have been deleted.,トラック数上限を超えたトラックは削除されました。,超出轨道数量上限的轨道已被删除。,文本审校完成；界面待验收
+MsgBox_Open_Sequence_UnsupportedVersion,Failed to open the file. This version of the file is not supported.,ファイルの読み込みに失敗しました。このバージョンのファイルはサポートされていません。,无法读取文件。不支持此文件版本。,文本审校完成；界面待验收
+MsgBox_PaidOffLeaseFile,"Lease Paid
+
+Congratulations! Your Splice lease has been paid off.
+Please enter your license key to activate the application.","リース完了
+
+Spliceのリースが完了しました。
+アプリケーションをアクティベートするためにライセンスキーを入力してください。","租购完成
+
+Splice 租购已完成。
+请输入许可证密钥以激活应用程序。",文本审校完成；界面待验收
+MsgBox_Paste_Error,Failed to paste.,貼り付けに失敗しました。,粘贴失败。,文本审校完成；界面待验收
+MsgBox_PrmChanged_PageMove,"Save the changes? If not, the changes are lost.",変更を保存しますか？保存しない場合は変更内容が失われます。,是否保存更改？不保存将丢失更改内容。,文本审校完成；界面待验收
+MsgBox_ResetVoiceForVoiceChanger,The voice banks that cannot be used for VOCALO CHANGER target are set in the audio parts of the project. The targets of these parts will be reset.,ボカロチェンジャーのターゲットに使用できないボイスバンクがプロジェクト内のオーディオパートに存在します。これらのパートはターゲットがリセットされます。,工程中的部分音频片段使用了无法用作 VOCALO CHANGER 目标的声库。这些片段的目标将被重置。,文本审校完成；界面待验收
+MsgBox_Resize_AudioPart_Error,Failed to resize Audio part.,オーディオパートをリサイズできません。,无法调整音频片段长度。,文本审校完成；界面待验收
+MsgBox_Resize_MidiPart_Error,Failed to resize VOCALOID Part.,VOCALOIDパートをリサイズできません。,无法调整 VOCALOID 片段长度。,文本审校完成；界面待验收
+MsgBox_Resize_Part_Error,Can not resize part.,パートをリサイズできません。,无法调整片段长度。,文本审校完成；界面待验收
+MsgBox_Revert_Confirm,Revert to the previously saved version?,最後に保存した状態に戻しますか？,是否恢复到上次保存的状态？,文本审校完成；界面待验收
+MsgBox_RobotVoice_RobotVoicesNull,Robot Voice could not be found.,ロボットボイスが存在しません。,没有可用的机器人声。,文本审校完成；界面待验收
+MsgBox_Save_Confirmation,Do you want to save,を保存しますか？,是否保存,文本审校完成；界面待验收
+MsgBox_Save_Media_Error,Failed to save media.,メディアの保存に失敗しました。,无法保存媒体。,文本审校完成；界面待验收
+MsgBox_Save_Sequence_Error,Failed to save project file.,プロジェクトファイルの書き込みに失敗しました。,无法写入工程文件。,文本审校完成；界面待验收
+MsgBox_Save_Style_Error,Failed to save style preset file.,スタイルプリセットファイルの保存に失敗しました。,无法保存风格预设文件。,文本审校完成；界面待验收
+MsgBox_Save_TooLargeSequence_Error,Failed to save file. VOCALOID project size exceeds 2GB.,VOCALOID のプロジェクトサイズが 2GB を超えているため、ファイルの保存に失敗しました。,VOCALOID 工程大小超过 2GB，无法保存文件。,文本审校完成；界面待验收
+MsgBox_SequenceOptimization,The project data is optimized for the current version of VOCALOID Editor.,現在の VOCALOID Editor バージョンに合わせてプロジェクトデータを最適化しました。,已针对当前 VOCALOID Editor 版本优化工程数据。,文本审校完成；界面待验收
+MsgBox_SequenceOptimization_Error,Failed to optimize project data for the current version of VOCALOID Editor.,現在の VOCALOID Editor バージョンに合わせたプロジェクトデータの最適化に失敗しました。,无法针对当前 VOCALOID Editor 版本优化工程数据。,文本审校完成；界面待验收
+MsgBox_Set_LoopRange_Error,Failed to set repeat playback section.,リピート再生区間の設定に失敗しました。,无法设置循环播放范围。,文本审校完成；界面待验收
+MsgBox_SingingSkill_DefaultSingingSkillNull,Default Singing Skill could not be found.,デフォルトのシンギングスキルが存在しません。,默认演唱技巧不存在。,文本审校完成；界面待验收
+MsgBox_StyleManagerInitialization_Error,Failed to initialize Style Manager.,Style Manager の初期化に失敗しました！,风格管理器初始化失败！,文本审校完成；界面待验收
+MsgBox_StylePresetChange_Confirm,"Some of the selected parts have an edited style or a non-default style applied.
+Would you like to change the style to match the voice change?","選択中のパートの一部に、編集済みまたはデフォルト以外のスタイルが設定されています。
+ボイス変更にあわせてスタイルも変更しますか？","所选片段中有些使用了已编辑或非默认的风格。
+是否在更改声库时同时更改风格？",文本审校完成；界面待验收
+MsgBox_Style_DeleteInfo,Are you sure you want to delete {0}? This action cannot be undone.,{0} を削除しますか？削除すると元には戻せません。,是否删除 {0}？删除后无法恢复。,文本审校完成；界面待验收
+MsgBox_Style_FailedToDeleteStyle,Failed to delete style preset.,スタイルプリセットの削除に失敗しました。,无法删除风格预设。,文本审校完成；界面待验收
+MsgBox_TooLongName_Warning,Too long names are not loaded.,長すぎる名称を読み込むことができませんでした。,无法读取过长的名称。,文本审校完成；界面待验收
+MsgBox_TooManyCharacters_Warning,"Too many characters have been entered, and they have been truncated to {0} characters.",入力文字数が多すぎます。{0}文字に切詰めて入力されました。,输入字符过多，已截断为 {0} 个字符。,文本审校完成；界面待验收
+MsgBox_TrackCouldNotBeAdded,Tracks could not be added because the maximum number of tracks was exceeded.,トラック数の上限を超えたため、トラックは追加できませんでした。,已达到轨道数量上限，无法添加轨道。,文本审校完成；界面待验收
+MsgBox_UserConfiguration_Corrupted_Error,The user configuration file will be initialized because it is corrupted.,ユーザー設定ファイルが破損しているため初期化します。,用户设置文件已损坏，将重置设置。,文本审校完成；界面待验收
+MsgBox_UserConfiguration_FailedToInit_Error,Failed to initialize user configuration file. VOCALOID Editor will now close.,ユーザー設定ファイルの初期化に失敗しました。VOCALOID Editor を終了します。,无法初始化用户设置文件。VOCALOID Editor 将退出。,文本审校完成；界面待验收
+MsgBox_VSMInitialization_Error,Failed to initialize VSM.,VSMの初期化に失敗しました！,VSM 初始化失败！,文本审校完成；界面待验收
+MsgBox_VoiceBank_Update_Prompt,Please check the websites of Voice Bank vendors.,ボイスバンク発売各社のホームページを確認してください。,请查看各声库发行商的网站。,文本审校完成；界面待验收
+MsgBox_VoiceBank_Update_Remaining,(remaining {0} voices),(その他 {0} 個のVoice),（另有 {0} 个声库）,文本审校完成；界面待验收
+MsgBox_VoiceBank_Update_Result,The following Voice Banks that can be updated.,下記のボイスバンクがアップデート可能です。,以下声库有可用更新。,文本审校完成；界面待验收
+MsgBox_Wave_CopyAudioPartProperty_Error,Failed to paste special. Error,形式を選択して貼り付けに失敗しました。 エラー,选择性粘贴失败。错误,文本审校完成；界面待验收
+MsgBox_Wave_OldEditor_Error,This Voice Bank version is not supported. Please update the Editor.,このボイスバンクのバージョンはサポートされていません。エディターをアップデートしてください。,不支持此声库版本。请更新编辑器。,文本审校完成；界面待验收
+MsgBox_Wave_OldVoiceBank_Error,This Voice Bank version is not supported. Please update the Voice Bank.,このボイスバンクのバージョンはサポートされていません。ボイスバンクをアップデートしてください。,不支持此声库版本。请更新声库。,文本审校完成；界面待验收
+MsgBox_Wave_PitchShift_Error,Failed to shift pitch. Error ,ピッチシフトに失敗しました。 エラー ,音高偏移失败。错误 ,文本审校完成；界面待验收
+MsgBox_Wave_Reverse_Error,Failed to reverse audio wave. Error ,リバースに失敗しました。 エラー ,倒放失败。错误 ,文本审校完成；界面待验收
+MsgBox_Wave_TimeStretch_Error,Failed to perform time stretch. Error ,タイムストレッチに失敗しました。 エラー ,时间拉伸失败。错误 ,文本审校完成；界面待验收
+MsgBox_Wave_VoiceChange_Error,Failed to perform voice change. Error ,ボイスチェンジに失敗しました。 エラー ,歌声转换失败。错误 ,文本审校完成；界面待验收
+NormalizeNote_Alert_Label,No overlapping notes.,重なっているノートが有りません。,没有重叠的音符。,文本审校完成；界面待验收
+NormalizeNote_Label,Overlapping notes are truncated to the length of the next note.,重なっているノートは、次のノートまでの長さに切り詰められます。,重叠音符将被缩短至下一个音符的起点。,文本审校完成；界面待验收
+NormalizeNote_NumberOfNotes_Label,Number of notes:,ノート数:,音符数量：,文本审校完成；界面待验收
+NormalizeNote_NumberOfOverlappingNotes_Label,Number of overlapping notes:,重なっているノート数:,重叠音符数量：,文本审校完成；界面待验收
+NormalizeNote_Title,Resolve Overlaps,オーバーラップを解消,消除音符重叠,文本审校完成；界面待验收
+NotFoundAudioFilesDlg_Msg,The following audio files cannot be found.,下記のオーディオファイルが見つかりませんでした。,未找到以下音频文件。,文本审校完成；界面待验收
+NotFoundAudioFilesDlg_Title,Audio file cannot be found.,オーディオファイルが見つかりません,未找到音频文件,文本审校完成；界面待验收
+NotePropertyDlg_AIParameter,AI Parameter,AIパラメーター,AI 参数,文本审校完成；界面待验收
+NotePropertyDlg_AiVibratoAssist,Assist,アシスト,辅助,文本审校完成；界面待验收
+NotePropertyDlg_Attack,Attack Effect,アタックエフェクト,起音效果,文本审校完成；界面待验收
+NotePropertyDlg_DirectPitch,Edited Pitch,編集したピッチ,已编辑的音高,文本审校完成；界面待验收
+NotePropertyDlg_LyricsAndPhonemes,Lyric and Phoneme,歌詞と発音記号,歌词与音素,文本审校完成；界面待验收
+NotePropertyDlg_Parameter,Parameter,パラメーター,参数,文本审校完成；界面待验收
+NotePropertyDlg_Release,Release Effect,リリースエフェクト,释音效果,文本审校完成；界面待验收
+NotePropertyDlg_Title,Paste Special,形式を選択して貼り付け,选择性粘贴,文本审校完成；界面待验收
+NotePropertyDlg_VibratoMode,Mode,モード,模式,文本审校完成；界面待验收
+NotePropertyDlg_VibratoParameters,Parameters,パラメーター,参数,文本审校完成；界面待验收
+PartPropertyDlg_AudioEffect,Audio Effect,オーディオエフェクト,音频效果器,文本审校完成；界面待验收
+PartPropertyDlg_Breath,Breath,ブレス,换气声,文本审校完成；界面待验收
+PartPropertyDlg_Note,Note,ノート,音符,文本审校完成；界面待验收
+PartPropertyDlg_PitchShift,Change Pitch,チェンジピッチ,音高变换,文本审校完成；界面待验收
+PartPropertyDlg_Reverse,Reverse,リバース,倒放,文本审校完成；界面待验收
+PartPropertyDlg_RobotVoice,Robot Voice,ロボットボイス,机器人声,文本审校完成；界面待验收
+PartPropertyDlg_SingingSkill,Singing Skill,シンギングスキル,演唱技巧,文本审校完成；界面待验收
+PartPropertyDlg_Style,Style,スタイル,风格,文本审校完成；界面待验收
+PartPropertyDlg_StylePreset,Style Preset,スタイルプリセット,风格预设,文本审校完成；界面待验收
+PartPropertyDlg_Take,Take,テイク,演唱变体（Take）,文本审校完成；界面待验收
+PartPropertyDlg_Title,Paste Special,形式を選択して貼り付け,选择性粘贴,文本审校完成；界面待验收
+PartPropertyDlg_VoiceBank,Voice,ボイス,声库,文本审校完成；界面待验收
+PartPropertyDlg_VoiceChanger,VOCALO CHANGER,ボカロチェンジャー,VOCALO CHANGER,文本审校完成；界面待验收
+PartPropertyDlg_VoiceColor,Voice Color,ボイスカラー,音色,文本审校完成；界面待验收
+PreferencesDlg_Advanced_ARAClientEnabled_Caption,"Allow connection with VOCALOID Bridge plugin
+(requires reloading the VOCALOID Editor plugin)","VOCALOID Bridge プラグインとの接続を許可する
+(VOCALOID Editor プラグインのリロードが必要です)","允许连接 VOCALOID Bridge 插件
+（需要重新加载 VOCALOID Editor 插件）",文本审校完成；界面待验收
+PreferencesDlg_Advanced_CacheCapacityOption_1GB,1GB,1GB,1GB,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CacheCapacityOption_2GB,2GB,2GB,2GB,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CacheCapacityOption_4GB,4GB,4GB,4GB,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CacheCapacityOption_8GB,8GB,8GB,8GB,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CacheCapacityOption_None,None,なし,无,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CacheCapacity_Caption,Cache Capacity,キャッシュ容量,缓存容量,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CacheSize_Caption,Cache Size,キャッシュ使用量,缓存使用量,文本审校完成；界面待验收
+PreferencesDlg_Advanced_ClearCache_Caption,Clear Cache,キャッシュクリア,清除缓存,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CultureKind_Japanese,Japanese,日本語,日语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_CultureKind_USEnglish,English,英語,英语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DataUse_Caption,Data Use,プライバシー,隐私,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultLyricLanguage_Chinese,Chinese,中国語,中文,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultLyricLanguage_English,English,英語,英语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultLyricLanguage_Japanese,Japanese,日本語,日语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultLyricLanguage_Korean,Korean,韓国語,韩语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultLyricLanguage_Spanish,Spanish,スペイン語,西班牙语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultLyric_Caption,Default Lyric,デフォルト歌詞,默认歌词,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultTrackColor_Audio_Caption,Audio,オーディオ,音频,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultTrackColor_GroupHeader,Track Color,トラックカラー,轨道颜色,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultTrackColor_Midi_Ai_Caption,VOCALOID:AI,VOCALOID:AI,VOCALOID:AI,文本审校完成；界面待验收
+PreferencesDlg_Advanced_DefaultTrackColor_Midi_Caption,VOCALOID,VOCALOID,VOCALOID,文本审校完成；界面待验收
+PreferencesDlg_Advanced_GetCacheSize_Caption,,キャッシュ使用量取得,获取缓存使用量,文本审校完成；界面待验收
+PreferencesDlg_Advanced_LanguagPriority_Caption,Preferred Language,優先する言語,语言优先级,文本审校完成；界面待验收
+PreferencesDlg_Advanced_LanguagePriority_Chinese,Chinese,中国語,中文,文本审校完成；界面待验收
+PreferencesDlg_Advanced_LanguagePriority_English,English,英語,英语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_LanguagePriority_Extension,(Extension),(拡張),（扩展）,文本审校完成；界面待验收
+PreferencesDlg_Advanced_LanguagePriority_Japanese,Japanese,日本語,日语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_LanguagePriority_Korean,Korean,韓国語,韩语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_LanguagePriority_Spanish,Spanish,スペイン語,西班牙语,文本审校完成；界面待验收
+PreferencesDlg_Advanced_Lyrics_GroupHeader,Lyrics,歌詞,歌词,文本审校完成；界面待验收
+PreferencesDlg_Advanced_MeasureOffset_Caption,Measure Offset,小節数オフセット,小节编号偏移,文本审校完成；界面待验收
+PreferencesDlg_Advanced_Plugin_Caption,Plugin,プラグイン,插件,文本审校完成；界面待验收
+PreferencesDlg_Advanced_SendDataEnabled_Caption,Permit transmission of software use conditions,ソフトウェア使用状況の送信を許可する,允许发送软件使用情况,文本审校完成；界面待验收
+PreferencesDlg_Advanced_Tab_Header,Details,詳細,高级,文本审校完成；界面待验收
+PreferencesDlg_Audio_AudioDevice_Caption,Audio Device,オーディオデバイス,音频设备,文本审校完成；界面待验收
+PreferencesDlg_Audio_AudioDevice_ConnectingToReWire,Connecting to ReWire,ReWire 接続中,ReWire 已连接,文本审校完成；界面待验收
+PreferencesDlg_Audio_Bit_Caption,Bit,量子化ビット数,位深度,文本审校完成；界面待验收
+PreferencesDlg_Audio_BufferSize_Caption,Buffer Size,バッファサイズ,缓冲区大小,文本审校完成；界面待验收
+PreferencesDlg_Audio_BufferSize_ConnectingToReWire,-,-,-,文本审校完成；界面待验收
+PreferencesDlg_Audio_Button_DevicePanel,Control Panel,コントロールパネル,控制面板,文本审校完成；界面待验收
+PreferencesDlg_Audio_MidiDevice_Caption,MIDI Device,MIDIデバイス,MIDI 设备,文本审校完成；界面待验收
+PreferencesDlg_Audio_SamplingRate_Caption,Sampling Rate,サンプリングレート,采样率,文本审校完成；界面待验收
+PreferencesDlg_Audio_StereoOutL_Caption,Stereo Out L,ステレオ出力 Left,立体声左声道输出,文本审校完成；界面待验收
+PreferencesDlg_Audio_StereoOutL_ConnectingToReWire,-,-,-,文本审校完成；界面待验收
+PreferencesDlg_Audio_StereoOutR_Caption,Stereo Out R,ステレオ出力 Right,立体声右声道输出,文本审校完成；界面待验收
+PreferencesDlg_Audio_StereoOutR_ConnectingToReWire,-,-,-,文本审校完成；界面待验收
+PreferencesDlg_Audio_Tab_Header,Audio,オーディオ,音频,文本审校完成；界面待验收
+PreferencesDlg_General_APIServerTimeOut_Caption,Timeout Wait Time (sec),サーバ接続のタイムアウト時間 (秒),服务器连接超时时间（秒）,文本审校完成；界面待验收
+PreferencesDlg_General_AutoSave_Caption,Auto Backup,自動バックアップ,自动备份,文本审校完成；界面待验收
+PreferencesDlg_General_AutoSave_Enable_Caption,Enable,有効,启用,文本审校完成；界面待验收
+PreferencesDlg_General_CheckForUpdates_Caption,Automatically check for updates,更新を自動的にチェック,自动检查更新,文本审校完成；界面待验收
+PreferencesDlg_General_ControlParametersV2Compatible_Caption,Revert to original value,操作終了時に元の値まで戻す,操作结束时返回原值,文本审校完成；界面待验收
+PreferencesDlg_General_ControlParameters_Caption,Control Parameters:,コントロールパラメーター:,控制参数：,文本审校完成；界面待验收
+PreferencesDlg_General_DefaultAiVoice_Caption,VOCALOID:AI Default Voice,VOCALOID:AI デフォルトボイス,VOCALOID:AI 默认声库,文本审校完成；界面待验收
+PreferencesDlg_General_DefaultVoice_Caption,VOCALOID Default Voice,VOCALOID デフォルトボイス,VOCALOID 默认声库,文本审校完成；界面待验收
+PreferencesDlg_General_GetCacheSize_Caption,Get Cache Size,,获取缓存使用量,文本审校完成；界面待验收
+PreferencesDlg_General_HorizontalScroll_Caption,Horizontal Scroll,水平スクロール,水平滚动,文本审校完成；界面待验收
+PreferencesDlg_General_HorizontalScroll_ReverseMouseWheelDirection_Caption,Reverse mouse wheel direction,マウスホイールの方向を反転,反转鼠标滚轮方向,文本审校完成；界面待验收
+PreferencesDlg_General_LoadSystemMediaFile_Caption,Load pre-installed media,プリインストールされているメディアをロード,加载预装媒体,文本审校完成；界面待验收
+PreferencesDlg_General_Media_Caption,Media,メディア,媒体库,文本审校完成；界面待验收
+PreferencesDlg_General_PrerollPlayEnabled_Caption,Pre-roll play (0.5 seconds),プリロール再生 (0.5秒),预卷播放（0.5 秒）,文本审校完成；界面待验收
+PreferencesDlg_General_ReturntoStartARA_Caption,Return to start position on stop,停止時に再生開始位置へ戻る,停止时返回起播位置,文本审校完成；界面待验收
+PreferencesDlg_General_ReturntoStart_Caption,Return to start position on stop,停止時に再生開始位置へ戻る,停止时返回起播位置,文本审校完成；界面待验收
+PreferencesDlg_General_SongPositionARA_Caption,Song Position ARA,ソングポジションARA,ARA 播放光标,文本审校完成；界面待验收
+PreferencesDlg_General_SongPosition_Caption,Song Position,ソングポジション,播放光标,文本审校完成；界面待验收
+PreferencesDlg_General_SoundPreview_Caption,Sound Preview,合成音のサンプル出力,合成声音试听,文本审校完成；界面待验收
+PreferencesDlg_General_StylePresetChangeMode_Caption,Replace Style on Changing Voice,ボイス変更時のスタイル切り替え,更改声库时切换风格,文本审校完成；界面待验收
+PreferencesDlg_General_StylePresetChangeMode_Confirm,"Replace if Default Style, Ask Otherwise",デフォルトスタイルなら切り替え、それ以外は確認,默认风格自动切换，其他风格询问确认,文本审校完成；界面待验收
+PreferencesDlg_General_StylePresetChangeMode_None,Don't Replace,切り替えない,不切换,文本审校完成；界面待验收
+PreferencesDlg_General_Tab_Header,General,一般,常规,文本审校完成；界面待验收
+PreferencesDlg_General_Updates_Caption,Update,アップデート,更新,文本审校完成；界面待验收
+PreferencesDlg_SettingsChangedMsg,Relaunch VOCALOID Editor to apply changes.,設定を反映させるためにVOCALOID Editorを再起動してください。,请重新启动 VOCALOID Editor 以应用设置。,文本审校完成；界面待验收
+PreferencesDlg_Title,Preferences,環境設定,偏好设置,文本审校完成；界面待验收
+PrivacyPolicy_Caption,Privacy Policy,プライバシーポリシー,隐私政策,文本审校完成；界面待验收
+PrivacyPolicy_URL,https://www.yamaha.com/en/apps_docs/apps_dmi/dmi_PP_GA-20220412EN.html,https://www.yamaha.com/ja/cookies_policy/,https://www.yamaha.com/ja/cookies_policy/,文本审校完成；界面待验收
+ProjectSettingDlg_MainTuning,Tuning,チューニング,基准调音,文本审校完成；界面待验收
+ProjectSettingDlg_MainTuning_Unit,Hz (415.3-466.2),Hz (415.3-466.2),Hz (415.3-466.2),文本审校完成；界面待验收
+ProjectSettingDlg_Title,Project Setting,プロジェクト設定,工程设置,文本审校完成；界面待验收
+ReplaceUnavailableVoiceDlg_ListTitle_NewVoice,New Voice Banks,変更後のボイスバンク,替换后的声库,文本审校完成；界面待验收
+ReplaceUnavailableVoiceDlg_ListTitle_OriginalVoice,Original Voice Banks,変更前のボイスバンク,原声库,文本审校完成；界面待验收
+ReplaceUnavailableVoiceDlg_Msg1,The voice banks that cannot be used are set in the parts of the project.,使用できないボイスバンクがプロジェクト内のパートに設定されています。,工程中的片段使用了不可用的声库。,文本审校完成；界面待验收
+ReplaceUnavailableVoiceDlg_Msg2,They will be replaced with available voice banks.,これらは使用可能なボイスバンクへ置き換えられます。,这些声库将被替换为可用的声库。,文本审校完成；界面待验收
+ReplaceUnavailableVoiceDlg_Title,Voice banks are not available,ボイスバンクが使用できません,声库不可用,文本审校完成；界面待验收
+SplitNote_NoteTranspose_Label,Transpose Split Note:,分割ノートのトランスポーズ:,拆分音符移调：,文本审校完成；界面待验收
+SplitNote_PhoneticSymbolProtect_Label,Protect Phonetic Symbol:,発音記号のプロテクト:,锁定音素：,文本审校完成；界面待验收
+SplitNote_ShortNoteAlert_Label,There are short notes that cannot be split.,短すぎて分割できないノートがあります。,部分音符过短，无法拆分。,文本审校完成；界面待验收
+SplitNote_SplitLength_Label,Split Length:,分割長:,拆分长度：,文本审校完成；界面待验收
+SplitNote_SplitMethodMelisuma_Label,- (Melisma),- (メリスマ),-（一字多音）,文本审校完成；界面待验收
+SplitNote_SplitMethodOptionPhoeneticSymbol_Label,Specific Phonetic Symbol,任意の発音記号,指定音素,文本审校完成；界面待验收
+SplitNote_SplitMethodVowel_Label,Vowel (Japanese Only),母音 (日本語のみ),元音（仅限日语）,文本审校完成；界面待验收
+SplitNote_SplitMethod_Label,Phonetic Symbols Split:,発音記号の分割:,音素拆分方式：,文本审校完成；界面待验收
+SplitNote_SplitPositionBackward_Label,Backward Split,ノートの終端を分割,拆分音符尾部,文本审校完成；界面待验收
+SplitNote_SplitPositionForward_Label,Forward Split,ノートの始端を分割,拆分音符头部,文本审校完成；界面待验收
+SplitNote_SplitPosition_Label,Split Position:,分割位置:,拆分位置：,文本审校完成；界面待验收
+SplitNote_Title,Split Note,ノートの分割,拆分音符,文本审校完成；界面待验收
+StaccatoNote_Label,Staccato Type:,スタッカートの種類:,断奏类型：,文本审校完成；界面待验收
+StaccatoNote_Medium,Medium,普通,中,文本审校完成；界面待验收
+StaccatoNote_Strong,Strong,強い,强,文本审校完成；界面待验收
+StaccatoNote_Title,Staccato,スタッカート,断奏,文本审校完成；界面待验收
+StaccatoNote_Weak,Weak,弱い,弱,文本审校完成；界面待验收
+String_OpenEditorLineupURL,https://www.vocaloid.com/en/vocaloid6/buy/,https://www.vocaloid.com/vocaloid6/buy/,https://www.vocaloid.com/vocaloid6/buy/,文本审校完成；界面待验收
+String_OpenManualURL,https://rsc-net.vocaloid.com/assets/pdf_files/bb/VOCALOID_Reference_Manual_ENG.pdf,https://rsc-net.vocaloid.com/assets/pdf_files/bb/VOCALOID_Reference_Manual_JPN.pdf,https://rsc-net.vocaloid.com/assets/pdf_files/bb/VOCALOID_Reference_Manual_JPN.pdf,文本审校完成；界面待验收
+String_OpenOfficialSiteURL,https://www.vocaloid.com/en,https://www.vocaloid.com,https://www.vocaloid.com,文本审校完成；界面待验收
+String_OpenTutorialURL,https://www.vocaloid.com/en/learn,https://www.vocaloid.com/learn,https://www.vocaloid.com/learn,文本审校完成；界面待验收
+StyleEditDlg_Title,Edit Style Preset Properties,スタイルプリセット情報を編集,编辑风格预设信息,文本审校完成；界面待验收
+StyleSaveAsDlg_AddNewTagDlg_TagName,Tag Name,タグ名,标签名称,文本审校完成；界面待验收
+StyleSaveAsDlg_AddNewTagDlg_Title,Add,追加,添加,文本审校完成；界面待验收
+StyleSaveAsDlg_Button_AddNewColor,Add New Color,Color 追加,添加颜色,文本审校完成；界面待验收
+StyleSaveAsDlg_Button_AddNewGenre,Add New Genre,Genre 追加,添加流派,文本审校完成；界面待验收
+StyleSaveAsDlg_Button_AddNewType,Add New Type,Type 追加,添加类型,文本审校完成；界面待验收
+StyleSaveAsDlg_NewStyle,(New),(新規),（新建）,文本审校完成；界面待验收
+StyleSaveAsDlg_NewStylePresetName,New Style Preset Name,スタイルプリセット名,风格预设名称,文本审校完成；界面待验收
+StyleSaveAsDlg_SaveTargetListLabel,Save As,保存対象,保存对象,文本审校完成；界面待验收
+StyleSaveAsDlg_StyleIsNotSelected,Style is not Selected.,スタイルが選択されていません。,尚未选择风格。,文本审校完成；界面待验收
+StyleSaveAsDlg_SystemStyleCannot,,その名前のスタイルプリセットは既に存在するため、上書き出来ません。,同名风格预设已存在，无法覆盖。,文本审校完成；界面待验收
+StyleSaveAsDlg_SystemStyleCannotOverwrite,A style preset with this name already exists. It cannot be overwritten.,,同名风格预设已存在，无法覆盖。,文本审校完成；界面待验收
+StyleSaveAsDlg_Title,Save Style,スタイルの保存,保存风格,文本审校完成；界面待验收
+StyleSaveAsDlg_UserStyleOverwriteInfo,Overwrite style preset?,上書きしますか？,是否覆盖？,文本审校完成；界面待验收
+TextBox_ContextMenu_Clear_Header,Clear,全て削除,全部删除,文本审校完成；界面待验收
+TextBox_ContextMenu_Copy_Gesture,Ctrl+C,Ctrl+C,Ctrl+C,文本审校完成；界面待验收
+TextBox_ContextMenu_Copy_Header,Copy,コピー,复制,文本审校完成；界面待验收
+TextBox_ContextMenu_Cut_Gesture,Ctrl+X,Ctrl+X,Ctrl+X,文本审校完成；界面待验收
+TextBox_ContextMenu_Cut_Header,Cut,切り取り,剪切,文本审校完成；界面待验收
+TextBox_ContextMenu_Paste_Gesture,Ctrl+V,Ctrl+V,Ctrl+V,文本审校完成；界面待验收
+TextBox_ContextMenu_Paste_Header,Paste,貼り付け,粘贴,文本审校完成；界面待验收
+TextBox_ContextMenu_SelectAll_Gesture,Ctrl+A,Ctrl+A,Ctrl+A,文本审校完成；界面待验收
+TextBox_ContextMenu_SelectAll_Header,Select All,全てを選択,全选,文本审校完成；界面待验收
+ToolBar_Amplitude_ToolTip,Expression,エクスプレッション,表情,文本审校完成；界面待验收
+ToolBar_Arrow_ToolTip,Arrow,矢印,箭头,文本审校完成；界面待验收
+ToolBar_AttackReleaseEffect_ToolTip,Attack & Release Effect,アタック & リリース エフェクト,起音与释音效果,文本审校完成；界面待验收
+ToolBar_AutoScroll_ToolTip,Auto Scroll,オートスクロール,自动滚动,文本审校完成；界面待验收
+ToolBar_Editor_ToolTip,Editor,エディター,编辑器,文本审校完成；界面待验收
+ToolBar_Emotion_ToolTip,Emotion,エモーション,情感,文本审校完成；界面待验收
+ToolBar_Inspector_ToolTip,Inspector,インスペクター,检查器,文本审校完成；界面待验收
+ToolBar_Line_ToolTip,Line,ライン,直线,文本审校完成；界面待验收
+ToolBar_Media_ToolTip,Media,メディア,媒体库,文本审校完成；界面待验收
+ToolBar_Metronome_ToolTip,Metronome,メトロノーム,节拍器,文本审校完成；界面待验收
+ToolBar_Mixer_ToolTip,Mixer,ミキサー,混音器,文本审校完成；界面待验收
+ToolBar_Pencil_ToolTip,Pencil,鉛筆,铅笔,文本审校完成；界面待验收
+ToolBar_PhonemeTiming_ToolTip,Timing,タイミング,音素时序,文本审校完成；界面待验收
+ToolBar_PitchEraser_ToolTip,Pitch Eraser,ピッチ消しゴム,音高橡皮擦,文本审校完成；界面待验收
+ToolBar_PitchPencil_ToolTip,Pitch Pencil,ピッチ鉛筆,音高铅笔,文本审校完成；界面待验收
+ToolBar_Pitch_ToolTip,Pitch,ピッチ,音高,文本审校完成；界面待验收
+ToolBar_Play_ToolTip,Play,再生,播放,文本审校完成；界面待验收
+ToolBar_Quantize_ToolTip,Grid,グリッド,网格,文本审校完成；界面待验收
+ToolBar_Record_ToolTip,Record,録音,录音,文本审校完成；界面待验收
+ToolBar_Repeat_ToolTip,Repeat,リピート,循环,文本审校完成；界面待验收
+ToolBar_Scissors_ToolTip,Scissors,はさみ,剪刀,文本审校完成；界面待验收
+ToolBar_Stop_ToolTip,Stop,停止,停止,文本审校完成；界面待验收
+ToolBar_TogglePlaybackGuideSound_ToolTip,Acoustic Feedback,試聴モード,试听模式,文本审校完成；界面待验收
+ToolBar_Vibrato_ToolTip,Vibrato,ビブラート,颤音,文本审校完成；界面待验收
+ToolGroup_Line_Caption,Line,ライン,直线,文本审校完成；界面待验收
+ToolGroup_Pencil_Caption,Pencil,鉛筆,铅笔,文本审校完成；界面待验收
+ToolGroup_PitchEraser_Caption,Pitch Eraser,ピッチ消しゴム,音高橡皮擦,文本审校完成；界面待验收
+ToolGroup_PitchPencil_Caption,Pitch Pencil,ピッチ鉛筆,音高铅笔,文本审校完成；界面待验收
+ToolGroup_Pitch_Caption,Pitch,ピッチ,音高,文本审校完成；界面待验收
+TrackType_AI,VOCALOID:AI,VOCALOID:AI,VOCALOID:AI,文本审校完成；界面待验收
+TrackType_VOCALOID,VOCALOID,VOCALOID,VOCALOID,文本审校完成；界面待验收
+TransposeNote_Label,Transpose:,トランスポーズ:,移调：,文本审校完成；界面待验收
+TransposeNote_Title,Transpose,トランスポーズ,移调,文本审校完成；界面待验收
+VSGFailReason_API,API Error.,API エラー,API 错误,文本审校完成；界面待验收
+VSGFailReason_Network,Network Error.,ネットワークエラー,网络错误,文本审校完成；界面待验收
+VSGFailReason_Other,Installation Error.,インストールエラー,安装错误,文本审校完成；界面待验收
+VSGFailReason_Server,Server Error.,サーバーエラー,服务器错误,文本审校完成；界面待验收
+VerifyLicene_DayRemaining,{0} day remaining,残り{0}日,剩余 {0} 天,文本审校完成；界面待验收
+VerifyLicene_DaysRemaining,{0} days remaining,残り{0}日,剩余 {0} 天,文本审校完成；界面待验收
+VerifyLicene_Ended,Ended,終了しました。,已结束。,文本审校完成；界面待验收
+VerifyLicene_FreeTrial,Free trial,試用する,开始试用,文本审校完成；界面待验收
+VerifyLicene_TrialPeriod,Trial period,試用期間,试用期,文本审校完成；界面待验收
+VerifyLicense_AuthorizeNow,Authorize now,すぐに認証する,立即激活,文本审校完成；界面待验收
+VerifyLicense_EditorNotAuthorized,"VOCALOID6 Editor not authorized.
+
+Please enter a valid VOCALOID6 serial code into the VOCALOID Authorizer.","VOCALOID6 Editor が認証されていません。
+
+VOCALOID Authorizer にて VOCALOID6 のシリアルコードを入力して認証してください。","VOCALOID6 Editor 尚未激活。
+
+请在 VOCALOID Authorizer 中输入 VOCALOID6 序列号并激活。",文本审校完成；界面待验收
+VerifyLicense_EditorTrial,"VOCALOID6 Editor not authorized.
+
+Please enter a valid VOCALOID6 serial code into the VOCALOID Authorizer.
+
+Authorize now?
+
+(Clicking [Authorize now] will launch the VOCALOID Authorizer.)","VOCALOID6 Editor が認証されていません。
+
+VOCALOID Authorizer にて VOCALOID6 のシリアルコードを入力して認証してください。
+
+今すぐ認証しますか？
+
+([すぐに認証する] をクリックすると VOCALOID Authorizer が起動します。)","VOCALOID6 Editor 尚未激活。
+
+请在 VOCALOID Authorizer 中输入 VOCALOID6 序列号并激活。
+
+是否立即激活？
+
+（点击“立即激活”将启动 VOCALOID Authorizer。）",文本审校完成；界面待验收
+VerifyLicense_EnterSerialNumber,"Please enter the applicable serial code for this voice into the VOCALOID Authorizer.
+(Voicebanks whose authorization grace periods have expired will not play.)
+
+Authorize now?
+
+(Clicking [Yes] will launch the VOCALOID Authorizer.)","VOCALOID Authorizer にて、該当のVoiceのシリアルコードを入力して認証してください。
+(認証猶予期間を過ぎたVoiceは出音されません)
+
+今すぐ認証しますか？
+
+( [はい] をクリックすると VOCALOID Authorizer が起動します。)","请在 VOCALOID Authorizer 中输入相应声库的序列号并激活。
+（超过激活宽限期的声库将无法发声）
+
+是否立即激活？
+
+（点击“是”将启动 VOCALOID Authorizer。）",文本审校完成；界面待验收
+VerifyLicense_EnterSerialNumberOrStartSplice,"Please enter the applicable serial code for this voice into the VOCALOID Authorizer, or start splice and connect to the internet.
+(Voicebanks whose authorization grace periods have expired, or whose leases have expired, will not play.)
+
+Authorize now?
+
+(Clicking [Yes] will launch the VOCALOID Authorizer.)","VOCALOID Authorizer にて、該当のVoiceのシリアルコードを入力して認証するか、Splice を起動してインターネットに接続してください。
+(認証猶予期間を過ぎたVoice、またはリース期限が切れたVoiceは出音されません)
+
+今すぐ認証しますか？
+
+( [はい] をクリックすると VOCALOID Authorizer が起動します。)","请在 VOCALOID Authorizer 中输入相应声库的序列号并激活，或启动 Splice 并连接互联网。
+（超过激活宽限期或租用到期的声库将无法发声）
+
+是否立即激活？
+
+（点击“是”将启动 VOCALOID Authorizer。）",文本审校完成；界面待验收
+VerifyLicense_Expired,Expired,試用期限切れ,试用期已结束,文本审校完成；界面待验收
+VerifyLicense_ExpiredLeaseFile,Expired lease,リース期限切れ,租用已到期,文本审校完成；界面待验收
+VerifyLicense_FailedLaunchAuthorizer,Failed to launch VOCALOID Authorizer.,VOCALOID Authorizerの起動に失敗しました。,无法启动 VOCALOID Authorizer。,文本审校完成；界面待验收
+VerifyLicense_LiteEditor1,Lite version does not support VST/AU functionality.,Lite版はVST/AU機能をサポートしていません。,Lite 版不支持 VST/AU 功能。,文本审校完成；界面待验收
+VerifyLicense_LiteEditor2,Please purchase the full-featured version.,フル機能版を購入してください。,请购买完整版。,文本审校完成；界面待验收
+VerifyLicense_NoVoice,"No voice has been installed.
+
+The VOCALOID6 Editor requires at least one installed voice to launch.
+
+Please install one separately.","Voiceが1つもインストールされていません。
+
+VOCALOID6 Editor を起動するには、1つ以上のVoiceがインストールされている必要があります。
+
+別途、インストールしてください。","尚未安装任何声库。
+
+要启动 VOCALOID6 Editor，至少需要安装一个声库。
+
+请另行安装声库。",文本审校完成；界面待验收
+VerifyLicense_PurchaseLicense,Purchase a license,VOCALOID SHOP で購入する,前往 VOCALOID SHOP 购买,文本审校完成；界面待验收
+VerifyLicense_Remaining,  (remaining {0} voices),  (その他 {0} 個のVoice),  （另有 {0} 个声库）,文本审校完成；界面待验收
+VerifyLicense_UnsynthesizableVersion,Unavailable Version,使用不可バージョン,不支持的版本,文本审校完成；界面待验收
+VerifyLicense_VoiceNotAuthorized,The following voice has not been authorized.,下記のVoiceが認証されていません。,以下声库尚未激活。,文本审校完成；界面待验收
+VerifyLicense_VoiceNotAuthorizedOrExpiredLeaseFile,"The following voice has not been authorized, or the lease has expired.",下記のVoiceが認証されていない、またはリース期限が切れています。,以下声库尚未激活或租用已到期。,文本审校完成；界面待验收
+VocaloChangerProgressDlg_Title,Progress,処理中,正在处理,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Languages_Chinese,Chinese,中国語,中文,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Languages_English,English,英語,英语,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Languages_Header,Languages,言語,语言,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Languages_Japanese,Japanese,日本語,日语,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Languages_Korean,Korean,韓国語,韩语,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Languages_Spanish,Spanish,スペイン語,西班牙语,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Latest,Latest,最新,最新,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Name_Header,Voice Bank Name,ボイスバンク名,声库名称,文本审校完成；界面待验收
+VoiceBanksVersionDlg_SortMark_Asc,▲,▲,▲,文本审校完成；界面待验收
+VoiceBanksVersionDlg_SortMark_Desc,▼,▼,▼,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Title,Voice Bank Version,ボイスバンクのバージョン,声库版本,文本审校完成；界面待验收
+VoiceBanksVersionDlg_Version_Header,Version,バージョン,版本,文本审校完成；界面待验收
+VoiceChangedDlg_ListTitle_NewVoice,New Voice Banks,変更後のボイスバンク,替换后的声库,文本审校完成；界面待验收
+VoiceChangedDlg_ListTitle_OriginalVoice,Original Voice Banks,変更前のボイスバンク,原声库,文本审校完成；界面待验收
+VoiceChangedDlg_Msg1,The voice banks that are not installed are used in the project.,プロジェクトで使用されているボイスバンクがインストールされていません。,工程使用的声库尚未安装。,文本审校完成；界面待验收
+VoiceChangedDlg_Msg2,They will be replaced with the installed ones.,インストールされているボイスバンクを使用するように置き換えました。,已替换为已安装的声库。,文本审校完成；界面待验收
+VoiceChangedDlg_Title,Voice banks have not been installed,ボイスバンクがインストールされていません,声库尚未安装,文本审校完成；界面待验收
+VoiceChangedDlg_UninstalledVoice,Uninstalled Voice,未インストールボイス,未安装的声库,文本审校完成；界面待验收
+Window_Title,VOCALOID6 Editor,VOCALOID6 Editor,VOCALOID6 Editor,文本审校完成；界面待验收

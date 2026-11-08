@@ -1,0 +1,33 @@
+name: Build Windows candidate
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Validate translation keys
+        run: python build.py --validate-only
+      - name: Build resources and tools
+        run: python build.py
+      - name: Verify payload hashes
+        run: dotnet payload/toolkit/V6CN.Toolkit.dll verify
+      - uses: actions/upload-artifact@v4
+        with:
+          name: VOCALOID6-CN-Windows-candidate
+          path: |
+            payload/
+            payload-manifest.json
+            baseline.json
+            *.cmd
+            README.md
+            translations/
+            reports/

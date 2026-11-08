@@ -1,0 +1,153 @@
+Yamaha.VOCALOID.App::GetVCSLangFromCurrentCulture
+0001 call get_CurrentCulture
+0006 callvirt get_Name
+000b ldc.i4.0 None
+000c box CultureKindEnum
+0011 call GetItemName
+0016 call op_Equality
+001b brtrue.s 32
+001d ldc.i4.1 None
+001e br.s 33
+0020 ldc.i4.0 None
+0021 brfalse.s 37
+0023 ldc.i4.1 None
+0024 ret None
+0025 ldc.i4.0 None
+0026 ret None
+Yamaha.VOCALOID.PreferencesDlg::get_CultureKindList
+0001 ldarg.0 None
+0002 ldsfld CultureKindListProperty
+0007 call GetValue
+000c castclass IEnumerable
+0011 ret None
+Yamaha.VOCALOID.PreferencesDlg::set_CultureKindList
+0001 ldarg.0 None
+0002 ldsfld CultureKindListProperty
+0007 ldarg.1 None
+0008 call SetValue
+000d ret None
+Yamaha.VOCALOID.PreferencesDlg::get_CultureKind
+0001 ldarg.0 None
+0002 ldsfld CultureKindProperty
+0007 call GetValue
+000c unbox.any CultureKindEnum
+0011 ret None
+Yamaha.VOCALOID.PreferencesDlg::set_CultureKind
+0001 ldarg.0 None
+0002 ldsfld CultureKindProperty
+0007 ldarg.1 None
+0008 box CultureKindEnum
+000d call SetValue
+0012 ret None
+Yamaha.VOCALOID.CultureKindEnumToStringConverter::Convert
+000c ldsfld Empty
+0011 stloc.0 None
+0012 ldarg.1 None
+0013 isinst token(0x1B00019A)
+0018 unbox.any token(0x1B00019A)
+001d stloc.1 None
+001e ldloca.s local(0x0001)
+0020 call get_HasValue
+0025 brfalse.s 70
+0027 ldloca.s local(0x0001)
+0029 call GetValueOrDefault
+002e stloc.2 None
+002f ldloc.2 None
+0030 brfalse.s 56
+0032 ldloc.2 None
+0033 ldc.i4.1 None
+0034 beq.s 64
+0036 br.s 70
+0038 call get_PreferencesDlg_Advanced_CultureKind_Japanese
+003d stloc.0 None
+003e br.s 70
+0040 call get_PreferencesDlg_Advanced_CultureKind_USEnglish
+0045 stloc.0 None
+0046 leave.s 75
+0048 pop None
+0049 leave.s 75
+004b ldloc.0 None
+004c ret None
+Yamaha.VOCALOID.CultureKindEnumToStringConverter::ConvertBack
+000c ldc.i4.0 None
+000d stloc.0 None
+000e ldarg.1 None
+000f isinst String
+0014 stloc.1 None
+0015 ldloc.1 None
+0016 call get_PreferencesDlg_Advanced_CultureKind_Japanese
+001b call op_Equality
+0020 brfalse.s 38
+0022 ldc.i4.0 None
+0023 stloc.0 None
+0024 br.s 53
+0026 ldloc.1 None
+0027 call get_PreferencesDlg_Advanced_CultureKind_USEnglish
+002c call op_Equality
+0031 brfalse.s 53
+0033 ldc.i4.1 None
+0034 stloc.0 None
+0035 leave.s 58
+0037 pop None
+0038 leave.s 58
+003a ldloc.0 None
+003b box CultureKindEnum
+0040 ret None
+Yamaha.VOCALOID.CultureKindEnumToStringConverter::.ctor
+0001 ldarg.0 None
+0002 call .ctor
+0007 ret None
+Yamaha.VOCALOID.SystemStatus::CloneSystemUICulture
+000c call get_CurrentUICulture
+0011 callvirt Clone
+0016 isinst CultureInfo
+001b stloc.0 None
+001c leave.s 60
+001e isinst Exception
+0023 dup None
+0024 brtrue.s 42
+0026 pop None
+0027 ldc.i4.0 None
+0028 br.s 53
+002a isinst ArgumentException
+002f ldnull None
+0030 cgt.un None
+0032 ldc.i4.0 None
+0033 cgt.un None
+0035 endfilter None
+0037 pop None
+0038 ldnull None
+0039 stloc.0 None
+003a leave.s 60
+003c ldloc.0 None
+003d ret None
+Yamaha.VOCALOID.Properties.Resources::get_ResourceManager
+0001 ldsfld resourceMan
+0006 brtrue.s 38
+0008 ldstr 'Yamaha.VOCALOID.Properties.Resources'
+000d ldtoken Resources
+0012 call GetTypeFromHandle
+0017 callvirt get_Assembly
+001c newobj .ctor
+0021 stsfld resourceMan
+0026 ldsfld resourceMan
+002b ret None
+Yamaha.VOCALOID.Properties.Resources::get_Culture
+0001 ldsfld resourceCulture
+0006 ret None
+Yamaha.VOCALOID.Properties.Resources::set_Culture
+0001 ldarg.0 None
+0002 stsfld resourceCulture
+0007 ret None
+Yamaha.VOCALOID.Properties.Resources::get_PreferencesDlg_Advanced_CultureKind_Japanese
+0001 call get_ResourceManager
+0006 ldstr 'PreferencesDlg_Advanced_CultureKind_Japanese'
+000b ldsfld resourceCulture
+0010 callvirt GetString
+0015 ret None
+Yamaha.VOCALOID.Properties.Resources::get_PreferencesDlg_Advanced_CultureKind_USEnglish
+0001 call get_ResourceManager
+0006 ldstr 'PreferencesDlg_Advanced_CultureKind_USEnglish'
+000b ldsfld resourceCulture
+0010 callvirt GetString
+0015 ret None
