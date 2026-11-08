@@ -32,6 +32,8 @@ def prepare():
 def manifest():
     files={p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/'payload').rglob('*')) if p.is_file()}
     (ROOT/'payload-manifest.json').write_text(json.dumps(files,indent=2)+'\n',encoding='utf-8')
+    names=['V6CN.StartupHook.dll','zh-CN/VOCALOID6.resources.dll','zh-CN/VOCALOID6Plugin.resources.dll']
+    (ROOT/'repair-payload.json').write_text(json.dumps({n:files['payload/'+n] for n in names},indent=2)+'\n',encoding='utf-8')
 
 if __name__=='__main__':
     a=argparse.ArgumentParser();a.add_argument('--dotnet',default='dotnet');a.add_argument('--validate-only',action='store_true');args=a.parse_args();prepare()

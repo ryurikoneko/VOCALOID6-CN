@@ -29,7 +29,9 @@
 
 不要把 `Start-Chinese.cmd` 本体移出安装副本。它通过自身路径寻找 `VOCALOID6.exe` 和中文适配器。
 
-需要桌面入口时，双击补丁包中的 `Repair-Launcher.cmd`。该工具备份并修复副本的启动脚本、更新卸载校验记录，在实际桌面目录建立 `VOCALOID6 Chinese.lnk`。之后使用该快捷方式启动。
+需要桌面入口时，双击补丁包中的 `Repair-Launcher.cmd`。该工具补回缺失或损坏的中文资源和启动适配器，备份并修复副本的启动脚本、更新卸载校验记录，在实际桌面目录建立 `VOCALOID6 Chinese.lnk`。之后使用该快捷方式启动。
+
+若提示 `Missing installed file: zh-CN\VOCALOID6.resources.dll`，请使用包含 DLL 的 [资源恢复包](dist/VOCALOID6_CN_Resource_Recovery.zip)，解压后运行其中的 `Repair-Launcher.cmd`。
 
 默认修复 `%LOCALAPPDATA%\VOCALOID6-CN-6.13.3-R1`；自定义目录使用：
 

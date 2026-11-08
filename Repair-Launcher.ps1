@@ -10,9 +10,9 @@ try {
     if ([IO.Path]::GetFullPath($receipt.Destination).TrimEnd('\') -ine $root) { throw 'Install receipt does not match this directory.' }
     if ([IO.Path]::GetFullPath($receipt.Source).TrimEnd('\') -ieq $root) { throw 'Refusing to modify the original installation.' }
     foreach ($path in @($root, (Join-Path $root 'zh-CN'))) {
-        if ((Get-Item -LiteralPath $path).Attributes -band [IO.FileAttributes]::ReparsePoint) { throw 'Linked installation directories are not supported.' }
+        if ((Test-Path -LiteralPath $path) -and ((Get-Item -LiteralPath $path).Attributes -band [IO.FileAttributes]::ReparsePoint)) { throw 'Linked installation directories are not supported.' }
     }
-    foreach ($name in @('VOCALOID6.exe','VOCALOID6.dll','V6CN.StartupHook.dll','zh-CN\VOCALOID6.resources.dll')) {
+    foreach ($name in @('VOCALOID6.exe','VOCALOID6.dll')) {
         $path = Join-Path $root $name
         if (-not (Test-Path -LiteralPath $path -PathType Leaf)) { throw "Missing installed file: $name" }
         if ((Get-Item -LiteralPath $path).Attributes -band [IO.FileAttributes]::ReparsePoint) { throw "Linked file: $name" }
@@ -23,6 +23,16 @@ try {
     }
     $template = Join-Path $PSScriptRoot 'tools\Start-Chinese.template.cmd'
     if (-not (Test-Path -LiteralPath $template)) { throw 'Extract the complete repair ZIP before running it.' }
+    $patchNames = @('V6CN.StartupHook.dll','zh-CN/VOCALOID6.resources.dll','zh-CN/VOCALOID6Plugin.resources.dll')
+    $payloadManifest = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'repair-payload.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+    foreach ($name in $patchNames) {
+        $sourcePath = Join-Path $PSScriptRoot ('payload/' + $name)
+        $expected = $payloadManifest.PSObject.Properties[$name].Value
+        if (-not $expected -or -not (Test-Path -LiteralPath $sourcePath -PathType Leaf)) { throw "Repair package is incomplete: $name" }
+        if ((Get-FileHash -LiteralPath $sourcePath -Algorithm SHA256).Hash -ine $expected) { throw "Repair package checksum mismatch: $name" }
+        $targetPath = Join-Path $root $name
+        if ((Test-Path -LiteralPath $targetPath) -and ((Get-Item -LiteralPath $targetPath).Attributes -band [IO.FileAttributes]::ReparsePoint)) { throw "Linked patch file: $name" }
+    }
     $backup = Join-Path $root ('V6CN-launcher-backups\' + [Guid]::NewGuid().ToString('N'))
     New-Item -ItemType Directory -Path $backup | Out-Null
     $launcher = Join-Path $root 'Start-Chinese.cmd'
@@ -31,6 +41,25 @@ try {
         Copy-Item -LiteralPath $launcher -Destination (Join-Path $backup 'Start-Chinese.cmd')
     }
     Copy-Item -LiteralPath $receiptPath -Destination (Join-Path $backup 'V6CN-install.json')
+    foreach ($name in $patchNames) {
+        $sourcePath = Join-Path $PSScriptRoot ('payload/' + $name)
+        $targetPath = Join-Path $root $name
+        $expected = $payloadManifest.PSObject.Properties[$name].Value
+        $needsCopy = -not (Test-Path -LiteralPath $targetPath -PathType Leaf)
+        if (-not $needsCopy) { $needsCopy = (Get-FileHash -LiteralPath $targetPath -Algorithm SHA256).Hash -ine $expected }
+        if ($needsCopy) {
+            if (Test-Path -LiteralPath $targetPath -PathType Leaf) {
+                $backupPath = Join-Path $backup $name
+                New-Item -ItemType Directory -Path (Split-Path -Parent $backupPath) -Force | Out-Null
+                Copy-Item -LiteralPath $targetPath -Destination $backupPath
+            }
+            New-Item -ItemType Directory -Path (Split-Path -Parent $targetPath) -Force | Out-Null
+            Copy-Item -LiteralPath $sourcePath -Destination $targetPath -Force
+        }
+        if ((Get-FileHash -LiteralPath $targetPath -Algorithm SHA256).Hash -ine $expected) { throw "Restored patch checksum mismatch: $name" }
+        $receiptKey = $name.Replace('/', [IO.Path]::DirectorySeparatorChar)
+        $receipt.Managed | Add-Member -MemberType NoteProperty -Name $receiptKey -Value $expected -Force
+    }
     Copy-Item -LiteralPath $template -Destination $launcher -Force
     $hash = (Get-FileHash -LiteralPath $launcher -Algorithm SHA256).Hash.ToLowerInvariant()
     $receipt.Managed | Add-Member -MemberType NoteProperty -Name 'Start-Chinese.cmd' -Value $hash -Force
@@ -67,7 +96,7 @@ try {
         $lines += ($events | Format-List TimeCreated,Id,ProviderName,Message | Out-String)
     } catch { $lines += 'No matching application events were available.' }
     [IO.File]::WriteAllLines($diagnostic, [string[]]$lines, (New-Object Text.UTF8Encoding($true)))
-    Write-Host 'Launcher repaired.' -ForegroundColor Green
+    Write-Host 'Chinese resources and launcher repaired.' -ForegroundColor Green
     if (-not $NoDesktopShortcut) { Write-Host 'Desktop shortcut created:'; Write-Host $shortcutPath }
     Write-Host 'Diagnostic file:'
     Write-Host $diagnostic

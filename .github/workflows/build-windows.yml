@@ -27,6 +27,7 @@ jobs:
             payload/
             payload-manifest.json
             baseline.json
+            repair-payload.json
             *.cmd
             *.ps1
             tools/Start-Chinese.template.cmd

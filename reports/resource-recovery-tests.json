@@ -1,0 +1,27 @@
+{
+  "platform": "posix",
+  "tests": [
+    {
+      "name": "missing_editor_satellite_restored",
+      "status": "PASS"
+    },
+    {
+      "name": "missing_satellite_directory_hook_and_launcher_restored",
+      "status": "PASS"
+    },
+    {
+      "name": "damaged_satellite_backed_up_and_replaced",
+      "status": "PASS"
+    },
+    {
+      "name": "damaged_package_refused_before_mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "restore_accepted_repaired_receipt",
+      "status": "PASS"
+    }
+  ],
+  "originalCopiedFilesUnchanged": 53,
+  "windowsCmdAndShortcut": "NOT_TESTED"
+}
