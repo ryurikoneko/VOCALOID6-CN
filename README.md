@@ -25,6 +25,22 @@
 
 安装器复制并核验程序文件，不覆盖原版目录。用户设置、缓存和授权仍由原应用管理；首次测试请使用工程副本。
 
+### 桌面快捷方式与启动失败
+
+不要把 `Start-Chinese.cmd` 本体移出安装副本。它通过自身路径寻找 `VOCALOID6.exe` 和中文适配器。
+
+需要桌面入口时，双击补丁包中的 `Repair-Launcher.cmd`。该工具备份并修复副本的启动脚本、更新卸载校验记录，在实际桌面目录建立 `VOCALOID6 Chinese.lnk`。之后使用该快捷方式启动。
+
+默认修复 `%LOCALAPPDATA%\VOCALOID6-CN-6.13.3-R1`；自定义目录使用：
+
+```bat
+Repair-Launcher.cmd -InstallDir "D:\V6-CN-Test"
+```
+
+新版启动脚本会把标准输出、错误和退出码写入副本的 `V6CN-launch.log`；启动文件缺失或进程异常退出时保留命令窗口。修复工具另生成 `V6CN-startup-diagnostic.txt`，包含运行中的 VOCALOID6 进程及近期相关应用错误。日志只写在本机，分享前请检查其中的路径和工程名称。
+
+如果软件无响应，先正常关闭已有实例；无法关闭时，保存其他工作后重启 Windows，再运行桌面快捷方式。修复工具不自动结束进程，也不清除用户配置。
+
 ### 提示目标文件夹已存在
 
 `Destination already exists` 表示目标目录已有内容。若该目录内有 `Start-Chinese.cmd` 且没有 `V6CN-INCOMPLETE.txt`，可直接启动已有副本。需要重新安装时，在补丁目录中运行：

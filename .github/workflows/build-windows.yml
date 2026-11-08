@@ -28,6 +28,8 @@ jobs:
             payload-manifest.json
             baseline.json
             *.cmd
+            *.ps1
+            tools/Start-Chinese.template.cmd
             README.md
             translations/
             reports/

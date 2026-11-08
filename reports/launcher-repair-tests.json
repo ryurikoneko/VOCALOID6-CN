@@ -1,0 +1,11 @@
+{
+  "platform": "Linux / PowerShell 7.4.6 / .NET 8.0.15",
+  "powershellSyntax": "PASS",
+  "repairExistingR1WithoutDesktopShortcut": "PASS",
+  "backupAndReceiptUpdate": "PASS",
+  "originalCopiedFilesUnchanged": 53,
+  "restoreUsingOriginalR1Toolkit": "PASS",
+  "windowsCmdExecution": "NOT_TESTED",
+  "windowsDesktopShortcutCreation": "NOT_TESTED",
+  "reportedUserStartupFailure": "AWAITING_USER_RETEST"
+}

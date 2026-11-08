@@ -85,7 +85,7 @@ internal static class Program
         foreach(var n in Modules) Add(Path.Combine("zh-CN",n+".resources.dll"),Path.Combine(Package,"payload","zh-CN",n+".resources.dll"));
         Add("V6CN.StartupHook.dll",Path.Combine(Package,"payload","V6CN.StartupHook.dll"));
         var launcher=Path.Combine(destination,"Start-Chinese.cmd");
-        File.WriteAllText(launcher,"@echo off\r\nsetlocal\r\nif defined DOTNET_STARTUP_HOOKS (echo Existing DOTNET_STARTUP_HOOKS detected. Use a clean command prompt. & pause & exit /b 1)\r\nset \"V6CN_TARGET_ROOT=%~dp0\"\r\nset \"V6CN_LOG=%~dp0V6CN-runtime.log\"\r\nset \"DOTNET_STARTUP_HOOKS=%~dp0V6CN.StartupHook.dll\"\r\npushd \"%~dp0\"\r\n\"%~dp0VOCALOID6.exe\" %*\r\npopd\r\nendlocal\r\n",Encoding.ASCII);
+        File.Copy(Path.Combine(Package,"tools","Start-Chinese.template.cmd"),launcher,false);
         managed.Add("Start-Chinese.cmd",Hash(launcher));
         Write(Path.Combine(destination,"V6CN-install.json"),new Receipt(source,destination,copied,managed));
         File.Delete(Path.Combine(destination,"V6CN-INCOMPLETE.txt"));
